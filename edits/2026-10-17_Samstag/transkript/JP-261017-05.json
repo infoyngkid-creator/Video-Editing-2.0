@@ -1,0 +1,124 @@
+{
+  "engine": "whisper",
+  "words": [
+    {
+      "w": "Einwürst!",
+      "s": 0.0,
+      "e": 0.54,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Komm,",
+      "s": 3.03,
+      "e": 3.43,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "nach",
+      "s": 3.81,
+      "e": 4.01,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Tür.",
+      "s": 4.01,
+      "e": 4.13,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Du",
+      "s": 7.14,
+      "e": 7.5,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "brauchst",
+      "s": 7.5,
+      "e": 7.7,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "kein",
+      "s": 7.7,
+      "e": 7.76,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Steinbruder,",
+      "s": 7.76,
+      "e": 8.1,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "er",
+      "s": 8.12,
+      "e": 8.32,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "hat's",
+      "s": 8.32,
+      "e": 8.44,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "gemacht.",
+      "s": 8.44,
+      "e": 8.58,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Ich",
+      "s": 9.96,
+      "e": 10.16,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "werfe",
+      "s": 10.16,
+      "e": 10.22,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "trotzdem",
+      "s": 10.22,
+      "e": 10.42,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ein",
+      "s": 10.42,
+      "e": 10.58,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Stein",
+      "s": 10.58,
+      "e": 10.74,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "hoch.",
+      "s": 10.74,
+      "e": 10.9,
+      "spk": null,
+      "event": false
+    }
+  ]
+}

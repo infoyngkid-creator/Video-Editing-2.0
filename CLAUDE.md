@@ -7,11 +7,24 @@ auf Deutsch, und liefere Ergebnisse als Drive-Links bzw. Dateinamen statt langer
 ## Wo liegt was
 - **Drive** `Mein Mac/JOE X PSGOTRICH/` (ID `1gxp8zG5hgsyqUXvIrgD2KXqU7dCUrXn4`, per Link freigegeben → Listen über den Drive-Connector, Download ohne Token via `vedit holen`):
   - `01_EINGANG/` Rohmaterial je Event (z. B. `#4_Mercedes GoKart`). Neue Uploads landen manchmal auch lose in der Wurzel (z. B. `Samstag shit `) – beachte Leerzeichen am Ende.
-  - `02_Entwürfe/<YYYY-MM-DD>_<Event>/` Exporte + `Kontext.md` + `Schnittplan.txt` (das schaut sich das Team an)
+  - `03_Archiv/<YYYY-MM-DD>_<Event>/` (ID `16rqf1lixMQDgMKKpkjmFKnwaBwSdawnn`) sortierte Shots `JP-YYMMDD-NN.MOV`
+    + `transkript.txt` + `Kontext.md`. **Gearbeitet wird nur aus dem Archiv.**
+  - `02_Entwürfe/<YYYY-MM-DD>_<Event>/` fertige Schnitte + `Schnittplan.txt` (das schaut sich das Team an)
   - `04_Zum_Löschen/`, `05_Musik/` (Songs für Hard Edits)
 - **Repo** `edits/<YYYY-MM-DD>_<Event>/` – versioniert, damit jede Session (Handy/Mac) weitermachen kann:
   `event.json`, `shots.json` (Archiv-IDs), `transkript/*.json`, `transkript.txt`, `Kontext.md`, `Schnittplan.txt`, `schnitt.json`
 - **work/** – Medien (Originale, Proxys, Exporte). Nicht versioniert, in Cloud-Sessions flüchtig.
+
+## Ablauf (verbindlich)
+1. **Eingang**: Neues Material liegt in `01_EINGANG/<Ordner>`. Liegt ein Upload-Ordner lose in der Wurzel → nach `01_EINGANG` verschieben.
+2. **Warten bis Upload fertig** (jüngste `createdTime` ≥ 10 min alt, User fragen im Zweifel). Nie halbe Events archivieren.
+3. **Ordnen + Archivieren**: Archiv-IDs vergeben, Dateien per Drive-Connector `update_file` (serverseitig, kein Download/Upload)
+   umbenennen zu `JP-YYMMDD-NN.<ext>` und nach `03_Archiv/<event>/` verschieben (Originalname in `description`).
+   Transkript + Kontext.md dazulegen. Danach ist der Eingangs-Ordner leer → leeren Ordner in den Papierkorb.
+4. **Schneiden** nur aus `03_Archiv` (Download per Link mit den Archiv-Datei-IDs).
+5. **Entwürfe**: Schnittplan nach `02_Entwürfe/<event>/`, Videos per `SendUserFile` an den User
+   (Videos nach Drive hochladen geht nur mit `GDRIVE_*`-Secrets).
+6. Komprimiertes 1080p-Archiv (spart GB, Originale weg) ebenfalls nur mit `GDRIVE_*`-Secrets – sonst bleiben die Originale im Archiv.
 
 ## Pipeline (`python3 -m vedit …`)
 1. `status` – was liegt neu in Drive, läuft ein Upload noch?

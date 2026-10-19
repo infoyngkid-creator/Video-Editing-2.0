@@ -1,0 +1,159 @@
+{
+  "engine": "whisper",
+  "words": [
+    {
+      "w": "All",
+      "s": 0.56,
+      "e": 1.02,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "right,",
+      "s": 1.02,
+      "e": 1.56,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "diese",
+      "s": 4.79,
+      "e": 6.67,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Teig",
+      "s": 6.67,
+      "e": 7.01,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "-Beef",
+      "s": 7.01,
+      "e": 7.27,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "oder?",
+      "s": 7.27,
+      "e": 7.41,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Irgendwer",
+      "s": 9.65,
+      "e": 9.97,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "hat",
+      "s": 9.97,
+      "e": 10.03,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "das",
+      "s": 10.03,
+      "e": 10.15,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "sie",
+      "s": 10.15,
+      "e": 10.23,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "für",
+      "s": 10.23,
+      "e": 10.39,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "uns",
+      "s": 10.39,
+      "e": 10.51,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "vorbereitet.",
+      "s": 10.51,
+      "e": 10.95,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Ich",
+      "s": 21.05,
+      "e": 21.53,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "bin",
+      "s": 21.53,
+      "e": 22.01,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "gestolpert,",
+      "s": 22.01,
+      "e": 22.37,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ja.",
+      "s": 22.51,
+      "e": 22.59,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Das",
+      "s": 24.64,
+      "e": 24.8,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ist",
+      "s": 24.8,
+      "e": 24.9,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "doch",
+      "s": 24.9,
+      "e": 24.98,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "fucking",
+      "s": 24.98,
+      "e": 25.22,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "gay.",
+      "s": 25.22,
+      "e": 25.46,
+      "spk": null,
+      "event": false
+    }
+  ]
+}
