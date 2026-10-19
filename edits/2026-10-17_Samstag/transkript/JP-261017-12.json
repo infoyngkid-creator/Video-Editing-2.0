@@ -1,0 +1,19 @@
+{
+  "engine": "whisper",
+  "words": [
+    {
+      "w": "Auf",
+      "s": 17.26,
+      "e": 17.74,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Wiedersehen!",
+      "s": 17.74,
+      "e": 17.92,
+      "spk": null,
+      "event": false
+    }
+  ]
+}

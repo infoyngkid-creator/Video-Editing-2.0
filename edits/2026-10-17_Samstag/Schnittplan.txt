@@ -1,0 +1,25 @@
+SCHNITTPLAN – 2026-10-17 Samstag / Studio-Session   (erstellt 2026-10-19)
+Quelle: 03_Archiv/2026-10-17_Samstag – JP-261017-01…12 (iPhone, HDR, 1080p/4K) · Kontext: Kontext.md
+Fokus: Beide · Typ: Vlog · Mood: lustig
+
+01 | Vlog | Reel 9:16 | Beide | lustig | Hook: Kicker „STUDIO · SAMSTAG 23:02“ + „ALLES LEGAL.“ → „Passwort.txt … ist wichtig“ → „Alles legal? – Leihgabe“ → Selfie-Statement „Wir distanzieren uns davon … Das war ein Statement.“ | JP-261017-09 (194,3–197,6 / 200,4–204,9 / 208,9–223,4) | Caption: „Klare Distanz.“ #studio #producer #alleslegal | 22 s
+02 | Vlog | Reel 9:16 | Beide | lustig | Hook: „WEGEN DER NACHBARN …“ → „Was haben wir für einen Wochentag? – Samstag. – Dann mach lauter.“ → „Es ist Samstag, ja?“ | JP-261017-06 (26,4–43,8) | Caption: „Nachbarn haben am Samstag nix zu melden.“ #samstag #studio | 17 s
+03 | Vlog | Reel 9:16 | Beide | lustig | Hook: „FREESTYLE?“ → „Ey, mach mal Freestyle!“ (2×) → „Ich kann kein Freestyle.“ → „Raucherlunge!“ | JP-261017-09 (7,2–17,1 / 23,6–25,4) | Caption: „Freestyle? Morgen.“ #freestyle #rap | 12 s
+
+Dateien (per Claude-App geschickt, nicht in Drive – Drive-Schreibzugriff fehlt):
+  2026-10-17_Beide_Vlog_Reel_01_Wir-distanzieren-uns.mp4
+  2026-10-17_Beide_Vlog_Reel_02_Es-ist-Samstag.mp4
+  2026-10-17_Beide_Vlog_Reel_03_Mach-mal-Freestyle.mp4
+
+Weitere Ideen (noch nicht geschnitten)
+04 | Vlog | Reel 9:16 | „Du hochintelligenter Mann“ – JP-261017-10 (164–188) – Kontext („was“ soll auf die Toilette?) unklar, erst ansehen.
+05 | Vlog | Reel 9:16 | Mütze „aus Versehen behalten“ – JP-261017-06 (48–73).
+YT01 | Vlog | YouTube 16:9 | „Es ist Samstag“ – kompletter Abend nach Bogen in Kontext.md, Cold Open = Statement (09), ca. 3–5 min.
+
+PRÜFHINWEISE
+- Untertitel automatisch (Whisper), an den Reel-Stellen nachkorrigiert. Bitte einmal gegenlesen, v. a. Reel 01 „Alles legal, was ihr hier macht?“.
+- Reel 01 thematisiert gecrackte Software (Passwort.txt, „Leihgabe“) – als Witz klar erkennbar, trotzdem bewusst entscheiden.
+- Producer und Gäste im Studio: Einverständnis zum Posten klären.
+- Reel 03 endet bewusst vor „mach ich immer so schwul / gay-ass Freestyle“.
+- JP-261017-12 (copy_A8E77…mov, 28 s, „Auf Wiedersehen“) war beim Archivieren nicht mehr in Drive – liegt nur noch lokal in der Session.
+- Wer ist Joe, wer PSGOTRICH? Dann passe ich den Fokus in den Dateinamen an.

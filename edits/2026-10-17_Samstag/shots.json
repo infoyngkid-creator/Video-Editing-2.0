@@ -7,7 +7,10 @@
     "fps": 30.0,
     "hdr": true,
     "aufgenommen": "2026-10-17T21:06:58+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1rv5pblRWUzS2Ygx5fzX4GgDJgLqUVJxx",
+    "original": "IMG_0140.MOV",
+    "archiv_name": "JP-261017-01.MOV"
   },
   "JP-261017-02": {
     "datei": "IMG_0142.MOV",
@@ -17,7 +20,10 @@
     "fps": 29.78,
     "hdr": true,
     "aufgenommen": "2026-10-17T21:30:48+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1ISD-fxEyl7YjdXZhBhbuOdRfq7EJWHWq",
+    "original": "IMG_0142.MOV",
+    "archiv_name": "JP-261017-02.MOV"
   },
   "JP-261017-03": {
     "datei": "IMG_0144.MOV",
@@ -27,7 +33,10 @@
     "fps": 28.47,
     "hdr": true,
     "aufgenommen": "2026-10-17T22:13:16+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1acbjYWMygApLHThn4JjI2Q05Kl2slmBh",
+    "original": "IMG_0144.MOV",
+    "archiv_name": "JP-261017-03.MOV"
   },
   "JP-261017-04": {
     "datei": "IMG_0145.MOV",
@@ -37,7 +46,10 @@
     "fps": 24.68,
     "hdr": true,
     "aufgenommen": "2026-10-17T22:17:36+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1AAxz9eRHDCmK2eNgvCTwTaZZFHOoloaj",
+    "original": "IMG_0145.MOV",
+    "archiv_name": "JP-261017-04.MOV"
   },
   "JP-261017-05": {
     "datei": "IMG_0146.MOV",
@@ -47,7 +59,10 @@
     "fps": 24.0,
     "hdr": true,
     "aufgenommen": "2026-10-17T22:20:12+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1ENwhgZPwjV_fuwqHLGyuxFcn31vX31KZ",
+    "original": "IMG_0146.MOV",
+    "archiv_name": "JP-261017-05.MOV"
   },
   "JP-261017-06": {
     "datei": "IMG_0150.MOV",
@@ -57,7 +72,10 @@
     "fps": 29.44,
     "hdr": true,
     "aufgenommen": "2026-10-17T22:47:28+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "117guRHK58EfIYW216HmodTCcYF2xDmWE",
+    "original": "IMG_0150.MOV",
+    "archiv_name": "JP-261017-06.MOV"
   },
   "JP-261017-07": {
     "datei": "IMG_0151.MOV",
@@ -67,9 +85,25 @@
     "fps": 29.05,
     "hdr": true,
     "aufgenommen": "2026-10-17T22:50:44+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1rop2ciEJLGxAu8MsBG4kuN433MX5YO4p",
+    "original": "IMG_0151.MOV",
+    "archiv_name": "JP-261017-07.MOV"
   },
   "JP-261017-08": {
+    "datei": "IMG_0152.MOV",
+    "dauer": 417.79,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 26.51,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T22:55:46+0200",
+    "audio": true,
+    "drive_id": "1f_wnJrouUXFX2m-UOzeLlkTAgKOzs2E3",
+    "original": "IMG_0152.MOV",
+    "archiv_name": "JP-261017-08.MOV"
+  },
+  "JP-261017-09": {
     "datei": "IMG_0153.MOV",
     "dauer": 232.13,
     "breite": 1920,
@@ -77,9 +111,12 @@
     "fps": 27.35,
     "hdr": true,
     "aufgenommen": "2026-10-17T23:02:56+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1269h3TkxRWJtDEPIRdl06i5I4Fxwtmlu",
+    "original": "IMG_0153.MOV",
+    "archiv_name": "JP-261017-09.MOV"
   },
-  "JP-261017-09": {
+  "JP-261017-10": {
     "datei": "IMG_0154.MOV",
     "dauer": 211.2,
     "breite": 1920,
@@ -87,9 +124,12 @@
     "fps": 25.78,
     "hdr": true,
     "aufgenommen": "2026-10-17T23:07:05+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1Ii_vXnw5a6Q8UI6fkiG73S0zf3r34bul",
+    "original": "IMG_0154.MOV",
+    "archiv_name": "JP-261017-10.MOV"
   },
-  "JP-261017-10": {
+  "JP-261017-11": {
     "datei": "IMG_0155.MOV",
     "dauer": 38.44,
     "breite": 1920,
@@ -97,9 +137,12 @@
     "fps": 29.11,
     "hdr": true,
     "aufgenommen": "2026-10-17T23:12:09+0200",
-    "audio": true
+    "audio": true,
+    "drive_id": "1oKdMJBu_8zN5fF8x3p2pBn4ko0xTVeVr",
+    "original": "IMG_0155.MOV",
+    "archiv_name": "JP-261017-11.MOV"
   },
-  "JP-261017-11": {
+  "JP-261017-12": {
     "datei": "copy_A8E77DF2.mov",
     "dauer": 28.27,
     "breite": 1920,
@@ -107,6 +150,10 @@
     "fps": 30.0,
     "hdr": false,
     "aufgenommen": "2026-10-17T21:39:59.000000Z",
-    "audio": true
+    "audio": true,
+    "drive_id": "1DT0O0YzBkWqHDyJQ_dcvscXl9QdMb04n",
+    "original": "copy_A8E77DF2.mov",
+    "archiv_name": "JP-261017-12.MOV",
+    "hinweis": "In Drive nicht mehr vorhanden (vor Archivierung gelöscht) – nicht im Archiv"
   }
 }
