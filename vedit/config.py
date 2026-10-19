@@ -12,6 +12,7 @@ REMOTE = os.environ.get("VEDIT_REMOTE", "gdrive")
 DRIVE_ROOT_ID = os.environ.get("VEDIT_DRIVE_ROOT_ID", "1gxp8zG5hgsyqUXvIrgD2KXqU7dCUrXn4")
 EINGANG = "01_EINGANG"
 ENTWUERFE = "02_Entwürfe"
+ARCHIV = "03_Archiv"
 MUSIK = "05_Musik"
 
 VIDEO_EXT = {".mov", ".mp4", ".m4v", ".mkv"}

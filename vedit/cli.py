@@ -9,6 +9,7 @@ Ablauf für ein neues Event:
 """
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -162,6 +163,35 @@ def cmd_archiv_plan(a):
     print(json.dumps(plan, ensure_ascii=False, indent=1))
 
 
+def cmd_archivieren(a):
+    """Komprimierte Archiv-Versionen (HEVC 1080p, SDR) aller Shots + Transkript/Kontext.
+    Mit Drive-Token: Upload nach 03_Archiv/<event>/ – danach können die Originale weg."""
+    ed, wd = _event_dirs(a.event)
+    shots = read_json(ed / "shots.json")
+    keep = set(a.vier_k or [])
+    for sid, meta in shots.items():
+        src = wd / "raw" / meta["datei"]
+        if not src.exists():
+            print(f"! {sid}: Original fehlt lokal ({meta['datei']})")
+            continue
+        out = media.compress_for_archive(src, wd / "archiv" / f"{sid}.mp4", meta, sid in keep)
+        meta["archiv_mb"] = round(out.stat().st_size / 1e6, 1)
+        meta["original_mb"] = round(src.stat().st_size / 1e6, 1)
+    write_json(ed / "shots.json", shots)
+    vorher = sum(m.get("original_mb", 0) for m in shots.values())
+    nachher = sum(m.get("archiv_mb", 0) for m in shots.values())
+    print(f"Archiv: {vorher / 1000:.2f} GB → {nachher / 1000:.2f} GB")
+    if os.environ.get(f"RCLONE_CONFIG_{config.REMOTE.upper()}_TOKEN"):
+        ziel = f"{config.ARCHIV}/{ed.name}"
+        drive.upload(wd / "archiv", ziel)
+        for name in ("transkript.txt", "Kontext.md", "shots.json"):
+            if (ed / name).exists():
+                drive.upload(ed / name, ziel)
+        print(f"Hochgeladen: {ziel} – Originale im Eingang können gelöscht werden.")
+    else:
+        print("Kein Drive-Schreibzugriff – Archiv-Dateien liegen nur lokal in", wd / "archiv")
+
+
 def cmd_hochladen(a):
     ed, wd = _event_dirs(a.event)
     ziel = f"{config.ENTWUERFE}/{ed.name}"
@@ -204,6 +234,10 @@ def main(argv=None):
     ap = s.add_parser("archiv-plan", help="Umbenenn-/Verschiebeplan fürs Drive-Archiv")
     ap.add_argument("event")
     ap.set_defaults(f=cmd_archiv_plan)
+    av = s.add_parser("archivieren", help="komprimiertes Archiv (HEVC 1080p) bauen + hochladen")
+    av.add_argument("event")
+    av.add_argument("--4k", dest="vier_k", nargs="*", help="Shot-IDs, die in voller Auflösung bleiben")
+    av.set_defaults(f=cmd_archivieren)
     h = s.add_parser("hochladen")
     h.add_argument("event")
     h.add_argument("--vorschau", action="store_true", help="Vorschauen statt finaler Exporte")

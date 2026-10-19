@@ -86,3 +86,26 @@ def slugify(text: str) -> str:
     text = (text.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue")
             .replace("Ä", "Ae").replace("Ö", "Oe").replace("Ü", "Ue").replace("ß", "ss"))
     return re.sub(r"[^A-Za-z0-9]+", "-", text).strip("-")
+
+
+TONEMAP = ("zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,"
+           "tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv")
+
+
+def compress_for_archive(src: Path, dst: Path, meta: dict, keep_4k=False):
+    """Archiv-Version: HEVC, kurze Seite 1080 px (bzw. 4K behalten), HDR→SDR, ~85–90 % kleiner,
+    optisch sauber für spätere Edits. hvc1-Tag, damit iPhone/Mac/Drive es direkt abspielen."""
+    if dst.exists():
+        return dst
+    short = min(meta["breite"], meta["hoehe"])
+    target = short if keep_4k else min(short, 1080)
+    scale = (f"scale=-2:{target}" if meta["breite"] >= meta["hoehe"] else f"scale={target}:-2")
+    vf = ([TONEMAP] if meta.get("hdr") else []) + [scale + ":flags=lanczos", "format=yuv420p"]
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    tmp = dst.with_suffix(".tmp.mp4")
+    run(["ffmpeg", "-y", "-v", "error", "-stats", "-i", src, "-map", "0:v:0", "-map", "0:a:0?",
+         "-vf", ",".join(vf), "-c:v", "libx265", "-preset", "fast", "-crf", "24",
+         "-tag:v", "hvc1", "-x265-params", "log-level=error",
+         "-c:a", "aac", "-b:a", "128k", "-map_metadata", "0", "-movflags", "+faststart", tmp])
+    tmp.rename(dst)
+    return dst
