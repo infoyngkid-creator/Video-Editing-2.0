@@ -1,0 +1,21 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/setup.sh\""
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m vedit:*)",
+      "Bash(rclone lsjson:*)",
+      "Bash(ffprobe:*)"
+    ]
+  }
+}
