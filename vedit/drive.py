@@ -73,3 +73,16 @@ def is_upload_finished(path: str) -> tuple[bool, list]:
     b_list = ls(path)
     b = {f["Path"]: f["Size"] for f in b_list if not f["IsDir"]}
     return a == b and bool(b), b_list
+
+
+def link_download(file_id: str, dest: Path):
+    """Download ohne Token: funktioniert, solange der Ordner per Link freigegeben ist
+    ("Jeder mit dem Link"). Datei-IDs liefert der Google-Drive-Connector in Claude."""
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    url = f"https://drive.usercontent.google.com/download?id={file_id}&export=download&confirm=t"
+    run(["curl", "-sSL", "--fail", "--retry", "3", "-o", dest, url])
+    with open(dest, "rb") as f:
+        if f.read(15).lstrip().startswith(b"<"):
+            dest.unlink()
+            raise SystemExit(f"{dest.name}: kein Zugriff – Ordner in Drive auf "
+                             "'Jeder mit dem Link' stellen.")

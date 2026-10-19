@@ -54,6 +54,24 @@ def cmd_neu(a):
     cmd_ingest(argparse.Namespace(event=event))
 
 
+def cmd_holen(a):
+    """Lädt Dateien per Datei-ID (Zeilen 'ID Dateiname' in einer Liste) – ohne Drive-Token."""
+    from concurrent.futures import ThreadPoolExecutor
+    event = f"{a.datum}_{media.slugify(a.name)}"
+    ed, wd = config.EDITS / event, config.WORK / event
+    ed.mkdir(parents=True, exist_ok=True)
+    meta = read_json(ed / "event.json", {})
+    meta.update({"datum": a.datum, "name": a.name, "quelle": a.quelle})
+    rows = [l.split(None, 1) for l in Path(a.liste).read_text().splitlines() if l.strip()]
+    meta["drive_ids"] = {name.strip(): fid for fid, name in rows}
+    write_json(ed / "event.json", meta)
+    todo = [(fid, wd / "raw" / name.strip()) for fid, name in rows
+            if not (wd / "raw" / name.strip()).exists()]
+    with ThreadPoolExecutor(4) as ex:
+        list(ex.map(lambda t: drive.link_download(*t), todo))
+    cmd_ingest(argparse.Namespace(event=event))
+
+
 def cmd_ingest(a):
     ed, wd = _event_dirs(a.event)
     shots = media.assign_ids(ed, wd / "raw")
@@ -91,9 +109,14 @@ def cmd_render(a, preview=False):
         shots = read_json(ed / "shots.json")
         quelle = read_json(ed / "event.json")["quelle"]
         need = {c["shot"] for v in _select(ed, a.nr) for c in v["clips"]}
+        ids = read_json(ed / "event.json").get("drive_ids", {})
         for sid in sorted(need):
-            if not (wd / "raw" / shots[sid]["datei"]).exists():
-                drive.download_file(f"{quelle}/{shots[sid]['datei']}", wd / "raw")
+            datei = shots[sid]["datei"]
+            if not (wd / "raw" / datei).exists():
+                if datei in ids:
+                    drive.link_download(ids[datei], wd / "raw" / datei)
+                else:
+                    drive.download_file(f"{quelle}/{datei}", wd / "raw")
     for v in _select(ed, a.nr):
         mus = _music(wd, v)
         if mus:
@@ -125,6 +148,12 @@ def main(argv=None):
     n.add_argument("name", help="Event-Name, z. B. 'Samstag-Bremen'")
     n.add_argument("--skip-check", action="store_true", help="Upload-Prüfung überspringen")
     n.set_defaults(f=cmd_neu)
+    g = s.add_parser("holen", help="Footage per Datei-IDs laden (ohne Token, Link-Freigabe)")
+    g.add_argument("liste", help="Textdatei mit Zeilen 'DRIVE_ID Dateiname'")
+    g.add_argument("datum")
+    g.add_argument("name")
+    g.add_argument("--quelle", default="", help="Drive-Ordnername (nur zur Info)")
+    g.set_defaults(f=cmd_holen)
     i = s.add_parser("ingest", help="IDs/Proxys/Transkript für schon geladenes Footage")
     i.add_argument("event")
     i.set_defaults(f=cmd_ingest)

@@ -5,7 +5,7 @@ Der User steuert meist **vom Handy** (Claude-App → Cloud-Session dieses Repos)
 auf Deutsch, und liefere Ergebnisse als Drive-Links bzw. Dateinamen statt langer Logs.
 
 ## Wo liegt was
-- **Drive** `Mein Mac/JOE X PSGOTRICH/` (alle Pfade unten relativ dazu, Remote `gdrive:`):
+- **Drive** `Mein Mac/JOE X PSGOTRICH/` (ID `1gxp8zG5hgsyqUXvIrgD2KXqU7dCUrXn4`, per Link freigegeben → Listen über den Drive-Connector, Download ohne Token via `vedit holen`):
   - `01_EINGANG/` Rohmaterial je Event (z. B. `#4_Mercedes GoKart`). Neue Uploads landen manchmal auch lose in der Wurzel (z. B. `Samstag shit `) – beachte Leerzeichen am Ende.
   - `02_Entwürfe/<YYYY-MM-DD>_<Event>/` Exporte + `Kontext.md` + `Schnittplan.txt` (das schaut sich das Team an)
   - `04_Zum_Löschen/`, `05_Musik/` (Songs für Hard Edits)
