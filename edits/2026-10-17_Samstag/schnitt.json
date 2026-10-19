@@ -105,6 +105,72 @@
           "pos": "oben"
         }
       ]
+    },
+    {
+      "nr": "04",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 260.4,
+          "bis": 272.9,
+          "modus": "voll",
+          "zoom": 1.3
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 530.9,
+          "bis": 535.7,
+          "modus": "voll",
+          "zoom": 1.3
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 671.7,
+          "bis": 681.3
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 181.0,
+          "bis": 188.0,
+          "modus": "voll"
+        }
+      ],
+      "texte": [
+        {
+          "text": "SAMSTAG 21:11 · IM AUTO",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "MISSION: 3D-SCAN",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "oben"
+        },
+        {
+          "text": "21:16 · IMMER NOCH",
+          "von": 12.5,
+          "bis": 15.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:18",
+          "von": 17.3,
+          "bis": 19.5,
+          "pos": "kicker"
+        },
+        {
+          "text": "23:10 · ZWEI STUNDEN SPÄTER",
+          "von": 26.9,
+          "bis": 29.6,
+          "pos": "kicker"
+        }
+      ]
     }
   ]
 }

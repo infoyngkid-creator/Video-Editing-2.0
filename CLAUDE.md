@@ -27,7 +27,8 @@ auf Deutsch, und liefere Ergebnisse als Drive-Links bzw. Dateinamen statt langer
 3. **Ordnen + Archivieren**: Archiv-IDs vergeben, `python3 -m vedit archiv-plan <event>` ausgeben lassen und jeden Eintrag
    per Drive-Connector `update_file` (fileId, title, description, parentId = Archiv-Event-Ordner) ausführen – serverseitig,
    kein Download/Upload. Archiv-Ordner-ID als `archiv_ordner_id` in `event.json` eintragen.
-   Transkript + Kontext.md dazulegen. Danach ist der Eingangs-Ordner leer → leeren Ordner in den Papierkorb.
+   Transkript + Kontext.md dazulegen. Eingangs-Ordner erst in den Papierkorb, wenn der User bestätigt, dass der Upload
+   komplett ist (sonst landen Nachzügler im Papierkorb – ist am 19.10. passiert).
 4. **Schneiden** nur aus `03_Archiv` (Download per Link mit den Archiv-Datei-IDs).
    **Alte Videos** sind jederzeit nutzbar: `python3 -m vedit archiv [--lang]` zeigt alle Events/Shots mit Drive-IDs,
    `grep -i "<Stichwort>" edits/*/transkript.txt` findet Sprüche über alle Events (Callbacks, Best-ofs).
