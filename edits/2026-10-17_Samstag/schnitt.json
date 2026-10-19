@@ -1100,6 +1100,49 @@
           "pos": "kicker"
         }
       ]
+    },
+    {
+      "nr": "30",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Beat-Bau",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-07",
+          "von": 14.1,
+          "bis": 26.0
+        },
+        {
+          "shot": "JP-261017-07",
+          "von": 34.2,
+          "bis": 45.0
+        },
+        {
+          "shot": "JP-261017-07",
+          "von": 71.6,
+          "bis": 80.4
+        },
+        {
+          "shot": "JP-261017-07",
+          "von": 87.2,
+          "bis": 91.1
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 22:50",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "TRAP-BASSLINE.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
     }
   ]
 }
