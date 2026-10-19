@@ -128,7 +128,8 @@ def _clip_filter(i: int, c: dict, meta: dict, w: int, h: int, preview: bool, fr:
     if fr["modus"] == "voll":
         # Ganzes Bild mittig, dasselbe Video unscharf + etwas dunkler als Hintergrund
         bw, bh = max(w // 6, 2) // 2 * 2, max(h // 6, 2) // 2 * 2
-        fw = int(w * zoom) // 2 * 2
+        vz = float(c["zoom"]) if "zoom" in c else 1.15   # Vollbild leicht größer als Bildbreite
+        fw = int(w * vz) // 2 * 2
         chain.append(f"split=2[bg{i}][fg{i}];"
                      f"[bg{i}]scale={bw}:{bh}:force_original_aspect_ratio=increase,crop={bw}:{bh},"
                      f"boxblur=10:3,eq=brightness=-0.06:saturation=1.1,scale={w}:{h}[bgb{i}];"

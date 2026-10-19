@@ -171,6 +171,390 @@
           "pos": "kicker"
         }
       ]
+    },
+    {
+      "nr": "05",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-01-Das-Problem",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 11.1,
+          "bis": 36.1
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 1 · 21:07",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DAS PROBLEM.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "06",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-02-Breitbeinig",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 51.2,
+          "bis": 57.6
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 63.5,
+          "bis": 84.8
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 2 · 21:08",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DER PLAN.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "07",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-03-Niemand-hat-mich-oefter",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 97.0,
+          "bis": 111.3
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 113.3,
+          "bis": 119.0
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 3 · 21:08",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "WER WILL HIER WAS?",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "08",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-04-Nur-Pro-Modelle",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 150.6,
+          "bis": 172.6
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 4 · 21:09",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "TECHNIK-CHECK.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "09",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-05-Du-willst-an-meine-Eier",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 189.8,
+          "bis": 202.9
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 333.6,
+          "bis": 341.6
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 5 · 21:10",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "WER WILL HIER WAS? TEIL 2",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "10",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-06-Backpulver-Erfahrung",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 238.2,
+          "bis": 255.3
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 6 · 21:11",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DER EXPERTE.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "11",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-07-Insta-Story",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 260.4,
+          "bis": 290.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 7 · 21:11",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "ICH HAB EIN PROBLEM.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "12",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-08-Posten-wir-das",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 290.1,
+          "bis": 305.8
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 306.5,
+          "bis": 315.0
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 8 · 21:12",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "POSTEN WIR DAS?",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "13",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-09-Euphorisch",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 361.1,
+          "bis": 389.8
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 9 · 21:13",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "NICHT EMPÖRT. EUPHORISCH.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "14",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-10-Aufgabenaufteilung",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 545.6,
+          "bis": 569.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 10 · 21:16",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "AUFGABENVERTEILUNG.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "15",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-11-Ich-tue-das-fuer-dich",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 575.5,
+          "bis": 593.0
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 11 · 21:16",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "ICH TU DAS FÜR DICH.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "16",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-12-Cosplay",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 604.8,
+          "bis": 634.2
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 12 · 21:17",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "LET ME COOK.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "17",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-13-Grundsatzdiskussion",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 657.1,
+          "bis": 685.7
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 13 · 21:18",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "GRUNDSATZDISKUSSION.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
     }
   ]
 }
