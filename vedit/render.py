@@ -91,20 +91,54 @@ def build_ass(v: dict, event_dir: Path, w: int, h: int, path: Path):
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def _clip_filter(i: int, c: dict, meta: dict, w: int, h: int, preview: bool) -> str:
+def resolve_framing(c: dict, meta: dict, event_dir: Path, work_dir: Path, w: int, h: int) -> dict:
+    """Modus + Ausschnitt eines Clips. `modus`: auto (Standard) | crop | voll.
+    `x`: Zahl (fest) oder "auto"/fehlend → Gesichtserkennung."""
+    from . import reframe
+    modus = c.get("modus", "auto")
+    if modus == "voll":
+        return {"modus": "voll"}
+    if modus == "crop" and isinstance(c.get("x"), (int, float)):
+        return {"modus": "crop", "x": c["x"], "y": c.get("y", 0.5)}
+    if w > h and meta["breite"] >= meta["hoehe"]:      # 16:9 → 16:9: nichts zu tun
+        return {"modus": "crop", "x": 0.5, "y": 0.5}
     zoom = float(c.get("zoom", 1.0))
-    x = float(c.get("x", 0.5))    # horizontaler Bildausschnitt 0 = links, 1 = rechts
-    y = float(c.get("y", 0.5))
+    src = work_dir / "proxy" / f"{c['shot']}.mp4"
+    if not src.exists():
+        src = work_dir / "raw" / meta["datei"]
+    key = f"{c['shot']}|{c['von']}|{c['bis']}|{zoom}|{w}x{h}"
+    p = reframe.cached_plan(
+        event_dir / "reframe.json", key,
+        lambda: reframe.plan(reframe.analyze(src, c["von"], c["bis"], meta["breite"], meta["hoehe"]),
+                             meta["breite"], meta["hoehe"], w, h, zoom))
+    if modus == "crop" and p["modus"] == "voll":     # crop erzwungen, aber kein Gesicht → Mitte
+        return {"modus": "crop", "x": 0.5, "y": 0.5}
+    return p
+
+
+def _clip_filter(i: int, c: dict, meta: dict, w: int, h: int, preview: bool, fr: dict) -> str:
+    from .reframe import x_expr
+    zoom = float(c.get("zoom", 1.0))
     chain = []
     if meta.get("hdr") and not preview:
         chain.append("zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,"
                      "tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv")
-    # Bild füllend skalieren (cover), dann Ausschnitt wählen
-    chain.append(f"scale=w='if(gt(a,{w}/{h}),-2,{w})*{zoom}':h='if(gt(a,{w}/{h}),{h},-2)*{zoom}'"
-                 ":flags=lanczos")
-    chain.append(f"crop={w}:{h}:'(iw-{w})*{x}':'(ih-{h})*{y}'")
     if c.get("tempo"):
         chain.append(f"setpts=PTS/{c['tempo']}")
+    if fr["modus"] == "voll":
+        # Ganzes Bild mittig, dasselbe Video unscharf + etwas dunkler als Hintergrund
+        bw, bh = max(w // 6, 2) // 2 * 2, max(h // 6, 2) // 2 * 2
+        fw = int(w * zoom) // 2 * 2
+        chain.append(f"split=2[bg{i}][fg{i}];"
+                     f"[bg{i}]scale={bw}:{bh}:force_original_aspect_ratio=increase,crop={bw}:{bh},"
+                     f"boxblur=10:3,eq=brightness=-0.06:saturation=1.1,scale={w}:{h}[bgb{i}];"
+                     f"[fg{i}]scale={fw}:-2:flags=lanczos[fgs{i}];"
+                     f"[bgb{i}][fgs{i}]overlay=(W-w)/2:(H-h)/2")
+    else:
+        # Bild füllend skalieren (cover), Ausschnitt nach Gesicht
+        chain.append(f"scale=w='if(gt(a,{w}/{h}),-2,{w})*{zoom}':h='if(gt(a,{w}/{h}),{h},-2)*{zoom}'"
+                     ":flags=lanczos")
+        chain.append(f"crop={w}:{h}:'(iw-{w})*({x_expr(fr['x'])})':'(ih-{h})*{fr.get('y', 0.5)}'")
     chain.append(f"fps={config.FPS},setsar=1,format=yuv420p")
     v = f"[{i}:v]{','.join(chain)}[v{i}]"
     dur = c["bis"] - c["von"]
@@ -141,7 +175,12 @@ def render_video(event_dir: Path, work_dir: Path, v: dict, preview=False,
             raise SystemExit(f"Quelle fehlt: {src} – erst `vedit holen` ausführen.")
         cmd += ["-ss", f"{c['von']:.3f}", "-to", f"{c['bis']:.3f}", "-i", src]
     n = len(v["clips"])
-    parts = [_clip_filter(i, c, shots[c["shot"]], w, h, preview) for i, c in enumerate(v["clips"])]
+    framing = [resolve_framing(c, shots[c["shot"]], event_dir, work_dir, w, h) for c in v["clips"]]
+    for c, fr in zip(v["clips"], framing):
+        print(f"  {c['shot']} {c['von']}–{c['bis']}: {fr['modus']}"
+              f"{' (' + fr['grund'] + ')' if fr.get('grund') else ''}")
+    parts = [_clip_filter(i, c, shots[c["shot"]], w, h, preview, fr)
+             for i, (c, fr) in enumerate(zip(v["clips"], framing))]
     concat_in = "".join(f"[v{i}][a{i}]" for i in range(n))
     ass_arg = str(ass).replace("\\", "/").replace(":", "\\:").replace("'", "\\'")
     graph = ";".join(parts) + f";{concat_in}concat=n={n}:v=1:a=1[vc][ac];[vc]ass='{ass_arg}'[vo]"

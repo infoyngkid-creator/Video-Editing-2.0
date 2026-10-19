@@ -59,7 +59,13 @@ auf Deutsch, und liefere Ergebnisse als Drive-Links bzw. Dateinamen statt langer
 }]}
 ```
 - `typ`: Vlog | Sketch | HardEdit | Interview · `fokus`: Joe | PSGOTRICH | Beide · `format`: 9:16 | 16:9
-- Clip-Optionen: `x`/`y` (Bildausschnitt 0–1, bei Querformat→9:16 wichtig: auf Gesichter setzen), `zoom`, `tempo`, `lautstaerke` (dB)
+- Clip-Optionen: `modus` (`auto` Standard | `crop` | `voll`), `x`/`y` (fester Ausschnitt 0–1, sonst Gesichtserkennung),
+  `zoom`, `tempo`, `lautstaerke` (dB)
+  - `auto`: Gesichtserkennung (YuNet). Eine Person → ruhiger Crop mit Totzone (folgt nur, wenn das Gesicht rauswandert).
+    Mehrere Leute, die nicht in 9:16 passen, oder kein Gesicht → `voll`.
+  - `voll`: ganzes 16:9-Bild mittig, dasselbe Video unscharf als Hintergrund. Für Gruppen, Reaktionen, Handy-Chaos.
+  - Punch-in = gleicher Shot als neuer Clip mit `zoom` 1.15–1.3 auf eine Pointe (nie enger, Gesicht bleibt oberes Drittel).
+  - Entscheidungen landen in `edits/<event>/reframe.json` (Cache; löschen = neu berechnen).
 - `pos`: oben | kicker (gelbe Zeile darüber) | mitte | unten
 - Mit `musik` entstehen automatisch `…_PREVIEW.mp4` (mit Song) und `…_OHNE-MUSIK.mp4` (Song in der App drunterlegen).
 - Dateiname: `<datum>_<Fokus>_<Typ>_<Reel|YouTube>_<NN>_<Titel>.mp4`
