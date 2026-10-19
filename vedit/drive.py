@@ -22,7 +22,8 @@ def _base():
     env_token = os.environ.get(f"RCLONE_CONFIG_{config.REMOTE.upper()}_TOKEN")
     if not env_token:
         raise SystemExit(
-            "Kein Drive-Token. GDRIVE_TOKEN als Environment-Secret hinterlegen "
+            "Kein Drive-Zugang. GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET, GDRIVE_REFRESH_TOKEN als "
+            "Environment-Variablen hinterlegen "
             "(siehe README › Einrichtung) und neue Session starten.")
     return ["rclone", "--drive-root-folder-id", config.DRIVE_ROOT_ID]
 

@@ -12,17 +12,24 @@ fi
 
 python3 -c "import faster_whisper" 2>/dev/null || pip install -q faster-whisper >/dev/null 2>&1 || true
 
-# Drive-Remote "gdrive" rein über Umgebungsvariablen. Token kommt aus dem Environment-Secret GDRIVE_TOKEN.
+# Drive-Remote "gdrive" rein über Umgebungsvariablen (Environment-Secrets der Cloud-Umgebung):
+#   GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET, GDRIVE_REFRESH_TOKEN  (eigener OAuth-Client, Handy-Setup, README)
+#   oder GDRIVE_TOKEN  (kompletter JSON-Block aus `rclone authorize "drive"`)
+if [ -n "${GDRIVE_REFRESH_TOKEN:-}" ] && [ -z "${GDRIVE_TOKEN:-}" ]; then
+  # abgelaufener Access-Token erzwingt sofortigen Refresh über den Refresh-Token
+  GDRIVE_TOKEN="{\"access_token\":\"\",\"token_type\":\"Bearer\",\"refresh_token\":\"${GDRIVE_REFRESH_TOKEN}\",\"expiry\":\"2000-01-01T00:00:00Z\"}"
+fi
 if [ -n "${CLAUDE_ENV_FILE:-}" ]; then
   {
     echo "export RCLONE_CONFIG_GDRIVE_TYPE=drive"
     echo "export RCLONE_CONFIG_GDRIVE_SCOPE=drive"
-    if [ -n "${GDRIVE_TOKEN:-}" ]; then
-      printf 'export RCLONE_CONFIG_GDRIVE_TOKEN=%q\n' "$GDRIVE_TOKEN"
-    fi
+    [ -n "${GDRIVE_CLIENT_ID:-}" ] && printf 'export RCLONE_CONFIG_GDRIVE_CLIENT_ID=%q\n' "$GDRIVE_CLIENT_ID"
+    [ -n "${GDRIVE_CLIENT_SECRET:-}" ] && printf 'export RCLONE_CONFIG_GDRIVE_CLIENT_SECRET=%q\n' "$GDRIVE_CLIENT_SECRET"
+    [ -n "${GDRIVE_TOKEN:-}" ] && printf 'export RCLONE_CONFIG_GDRIVE_TOKEN=%q\n' "$GDRIVE_TOKEN"
+    true
   } >> "$CLAUDE_ENV_FILE"
 fi
 
 if [ -z "${GDRIVE_TOKEN:-}" ]; then
-  echo "Hinweis: GDRIVE_TOKEN fehlt – Drive-Zugriff erst nach Einrichtung (README › Einrichtung)."
+  echo "Hinweis: Drive-Zugang fehlt – GDRIVE_CLIENT_ID/SECRET/REFRESH_TOKEN setzen (README › Einrichtung)."
 fi
