@@ -45,8 +45,10 @@ def analyze(src: Path, von: float, bis: float, src_w: int, src_h: int) -> list[d
         _det = cv2.FaceDetectorYN.create(str(MODEL), "", (AW, ah), 0.6, 0.3, 50)
     _det.setInputSize((AW, ah))
     samples = []
+    lumas = []
     for i in range(n):
         img = np.frombuffer(raw, np.uint8, AW * ah * 3, i * AW * ah * 3).reshape(ah, AW, 3)
+        lumas.append(float(img.mean()))
         _, faces = _det.detect(img)
         fl = []
         for f in (faces if faces is not None else []):
@@ -54,7 +56,7 @@ def analyze(src: Path, von: float, bis: float, src_w: int, src_h: int) -> list[d
             if w / AW >= MIN_FACE:
                 fl.append({"cx": (x + w / 2) / AW, "cy": (y + h / 2) / ah,
                            "w": w / AW, "h": h / ah, "score": float(score)})
-        samples.append({"t": i / FPS, "faces": fl})
+        samples.append({"t": i / FPS, "faces": fl, "luma": lumas[-1]})
     return samples
 
 
@@ -67,7 +69,14 @@ def _smooth(vals, win):
     return list(np.convolve(pad, ker, mode="valid"))
 
 
-def plan(samples: list[dict], src_w: int, src_h: int, out_w: int, out_h: int, zoom=1.0) -> dict:
+def plan(samples, src_w, src_h, out_w, out_h, zoom=1.0) -> dict:
+    p = _plan(samples, src_w, src_h, out_w, out_h, zoom)
+    if samples:
+        p["luma"] = round(float(np.median([s.get("luma", 128) for s in samples])), 1)
+    return p
+
+
+def _plan(samples: list[dict], src_w: int, src_h: int, out_w: int, out_h: int, zoom=1.0) -> dict:
     """Entscheidet Modus + Ausschnitt. Rückgabe: {"modus": "voll"} oder
     {"modus": "crop", "x": float | [(t, x), …], "y": float}."""
     sh = out_h * zoom

@@ -83,9 +83,14 @@ def build_ass(v: dict, event_dir: Path, w: int, h: int, path: Path):
                              f"{_esc(text)}")
                 chunk = []
     pos_style = {"oben": "Titel", "kicker": "Kicker", "mitte": "Mitte", "unten": "Sub"}
+    sizes = {"Titel": title_size, "Kicker": kicker_size, "Mitte": title_size, "Sub": sub_size}
     for t in v.get("texte", []):
         style = pos_style.get(t.get("pos", "oben"), "Titel")
         fx = "{\\fad(120,120)}" if t.get("fade", True) else ""
+        longest = max((len(x) for x in t["text"].split()), default=1)   # einzelne Wörter brechen nicht um
+        fit = int(w * 0.88 / (0.68 * max(longest, 1)))     # grobe Breite pro Zeichen (Inter Black, Versalien)
+        if fit < sizes[style]:
+            fx += f"{{\\fs{fit}}}"
         lines.append(f"Dialogue: 1,{_ass_time(t['von'])},{_ass_time(t['bis'])},{style},,0,0,0,,"
                      f"{fx}{_esc(t['text'])}")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -125,10 +130,14 @@ def _clip_filter(i: int, c: dict, meta: dict, w: int, h: int, preview: bool, fr:
                      "tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv")
     if c.get("tempo"):
         chain.append(f"setpts=PTS/{c['tempo']}")
+    luma = fr.get("luma", 128)
+    if c.get("hell") or luma < 70:
+        g = c.get("hell") or (1.6 if luma < 40 else 1.35)
+        chain.append(f"eq=gamma={g}:saturation=1.15:contrast=1.05")
     if fr["modus"] == "voll":
         # Ganzes Bild mittig, dasselbe Video unscharf + etwas dunkler als Hintergrund
         bw, bh = max(w // 6, 2) // 2 * 2, max(h // 6, 2) // 2 * 2
-        vz = float(c["zoom"]) if "zoom" in c else 1.15   # Vollbild leicht größer als Bildbreite
+        vz = float(c.get("vollzoom", c.get("zoom", 1.15)))   # Vollbild leicht größer als Bildbreite
         fw = int(w * vz) // 2 * 2
         chain.append(f"split=2[bg{i}][fg{i}];"
                      f"[bg{i}]scale={bw}:{bh}:force_original_aspect_ratio=increase,crop={bw}:{bh},"
