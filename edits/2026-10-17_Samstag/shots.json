@@ -1,0 +1,112 @@
+{
+  "JP-261017-01": {
+    "datei": "IMG_0140.MOV",
+    "dauer": 3.3,
+    "breite": 1080,
+    "hoehe": 1920,
+    "fps": 30.0,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T21:06:58+0200",
+    "audio": true
+  },
+  "JP-261017-02": {
+    "datei": "IMG_0142.MOV",
+    "dauer": 19.04,
+    "breite": 1080,
+    "hoehe": 1920,
+    "fps": 29.78,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T21:30:48+0200",
+    "audio": true
+  },
+  "JP-261017-03": {
+    "datei": "IMG_0144.MOV",
+    "dauer": 51.35,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 28.47,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T22:13:16+0200",
+    "audio": true
+  },
+  "JP-261017-04": {
+    "datei": "IMG_0145.MOV",
+    "dauer": 25.65,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 24.68,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T22:17:36+0200",
+    "audio": true
+  },
+  "JP-261017-05": {
+    "datei": "IMG_0146.MOV",
+    "dauer": 13.67,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 24.0,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T22:20:12+0200",
+    "audio": true
+  },
+  "JP-261017-06": {
+    "datei": "IMG_0150.MOV",
+    "dauer": 72.65,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 29.44,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T22:47:28+0200",
+    "audio": true
+  },
+  "JP-261017-07": {
+    "datei": "IMG_0151.MOV",
+    "dauer": 267.19,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 29.05,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T22:50:44+0200",
+    "audio": true
+  },
+  "JP-261017-08": {
+    "datei": "IMG_0153.MOV",
+    "dauer": 232.13,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 27.35,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T23:02:56+0200",
+    "audio": true
+  },
+  "JP-261017-09": {
+    "datei": "IMG_0154.MOV",
+    "dauer": 211.2,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 25.78,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T23:07:05+0200",
+    "audio": true
+  },
+  "JP-261017-10": {
+    "datei": "IMG_0155.MOV",
+    "dauer": 38.44,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 29.11,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T23:12:09+0200",
+    "audio": true
+  },
+  "JP-261017-11": {
+    "datei": "copy_A8E77DF2.mov",
+    "dauer": 28.27,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 30.0,
+    "hdr": false,
+    "aufgenommen": "2026-10-17T21:39:59.000000Z",
+    "audio": true
+  }
+}
