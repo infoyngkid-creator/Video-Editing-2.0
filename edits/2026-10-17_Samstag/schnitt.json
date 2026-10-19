@@ -575,6 +575,184 @@
           "pos": "oben"
         }
       ]
+    },
+    {
+      "nr": "18",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-14-Studio-Edition",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-08",
+          "von": 221.8,
+          "bis": 234.6
+        },
+        {
+          "shot": "JP-261017-08",
+          "von": 238.0,
+          "bis": 251.0
+        },
+        {
+          "shot": "JP-261017-08",
+          "von": 259.4,
+          "bis": 262.6
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 14 · 22:58 IM STUDIO",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "NEUE LOCATION. GLEICHE MISSION.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "19",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-15-Der-Lauf",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-08",
+          "von": 277.9,
+          "bis": 298.6
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 15 · 23:00",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DIE ERKLÄRUNG.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "20",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-16-KI",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-08",
+          "von": 316.9,
+          "bis": 336.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 16 · 23:00",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "KI WIRD AUF UNS GETRAINED.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "21",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Weissburgunder",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-08",
+          "von": 162.8,
+          "bis": 190.2
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 22:58",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "FÜR FEINSCHMECKER.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "22",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Ich-verstehe-gar-nichts",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-09",
+          "von": 154.3,
+          "bis": 179.2
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 23:05",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "FL SEIT 8 JAHREN.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "24",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Die-Muetze",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-06",
+          "von": 48.2,
+          "bis": 73.0
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 22:48",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DIESE MÜTZE, NE?",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
     }
   ]
 }
