@@ -11,7 +11,9 @@ REMOTE = os.environ.get("VEDIT_REMOTE", "gdrive")
 # Ordner "JOE X PSGOTRICH" in Drive
 DRIVE_ROOT_ID = os.environ.get("VEDIT_DRIVE_ROOT_ID", "1gxp8zG5hgsyqUXvIrgD2KXqU7dCUrXn4")
 EINGANG = "01_EINGANG"
-ENTWUERFE = "02_Entwürfe"
+# Ordnernamen kommen vom Mac in NFD-Unicode (u + Trema) – rclone vergleicht exakt
+import unicodedata
+ENTWUERFE = unicodedata.normalize("NFD", "02_Entwürfe")
 ARCHIV = "03_Archiv"
 MUSIK = "05_Musik"
 
