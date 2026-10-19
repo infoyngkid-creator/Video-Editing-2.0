@@ -155,5 +155,15 @@
     "original": "copy_A8E77DF2.mov",
     "archiv_name": "JP-261017-12.MOV",
     "hinweis": "In Drive nicht mehr vorhanden (vor Archivierung gelöscht) – nicht im Archiv"
+  },
+  "JP-261017-13": {
+    "datei": "IMG_0141.MOV",
+    "dauer": 687.78,
+    "breite": 1920,
+    "hoehe": 1080,
+    "fps": 23.98,
+    "hdr": true,
+    "aufgenommen": "2026-10-17T21:07:06+0200",
+    "audio": true
   }
 }

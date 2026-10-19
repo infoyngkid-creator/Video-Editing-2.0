@@ -4,6 +4,12 @@ Du schneidest Social-Content (Reels 9:16, YouTube 16:9) für **Joe** und **PSGOT
 Der User steuert meist **vom Handy** (Claude-App → Cloud-Session dieses Repos). Antworte deshalb kurz,
 auf Deutsch, und liefere Ergebnisse als Drive-Links bzw. Dateinamen statt langer Logs.
 
+## Wer ist wer
+- **Joe Laredo**: Cap nach hinten.
+- **PSGOTRICH**: der Blonde, etwas kleiner.
+- **Paul**: filmt oft mit, trägt zwischendurch Schiebermütze.
+- Alle anderen = Gäste (Namen nur, wie sie sich selbst nennen).
+
 ## Wo liegt was
 - **Drive** `Mein Mac/JOE X PSGOTRICH/` (ID `1gxp8zG5hgsyqUXvIrgD2KXqU7dCUrXn4`, per Link freigegeben → Listen über den Drive-Connector, Download ohne Token via `vedit holen`):
   - `01_EINGANG/` Rohmaterial je Event (z. B. `#4_Mercedes GoKart`). Neue Uploads landen manchmal auch lose in der Wurzel (z. B. `Samstag shit `) – beachte Leerzeichen am Ende.
