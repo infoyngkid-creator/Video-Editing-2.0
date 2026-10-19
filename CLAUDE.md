@@ -18,10 +18,14 @@ auf Deutsch, und liefere Ergebnisse als Drive-Links bzw. Dateinamen statt langer
 ## Ablauf (verbindlich)
 1. **Eingang**: Neues Material liegt in `01_EINGANG/<Ordner>`. Liegt ein Upload-Ordner lose in der Wurzel → nach `01_EINGANG` verschieben.
 2. **Warten bis Upload fertig** (jüngste `createdTime` ≥ 10 min alt, User fragen im Zweifel). Nie halbe Events archivieren.
-3. **Ordnen + Archivieren**: Archiv-IDs vergeben, Dateien per Drive-Connector `update_file` (serverseitig, kein Download/Upload)
-   umbenennen zu `JP-YYMMDD-NN.<ext>` und nach `03_Archiv/<event>/` verschieben (Originalname in `description`).
+3. **Ordnen + Archivieren**: Archiv-IDs vergeben, `python3 -m vedit archiv-plan <event>` ausgeben lassen und jeden Eintrag
+   per Drive-Connector `update_file` (fileId, title, description, parentId = Archiv-Event-Ordner) ausführen – serverseitig,
+   kein Download/Upload. Archiv-Ordner-ID als `archiv_ordner_id` in `event.json` eintragen.
    Transkript + Kontext.md dazulegen. Danach ist der Eingangs-Ordner leer → leeren Ordner in den Papierkorb.
 4. **Schneiden** nur aus `03_Archiv` (Download per Link mit den Archiv-Datei-IDs).
+   **Alte Videos** sind jederzeit nutzbar: `python3 -m vedit archiv [--lang]` zeigt alle Events/Shots mit Drive-IDs,
+   `grep -i "<Stichwort>" edits/*/transkript.txt` findet Sprüche über alle Events (Callbacks, Best-ofs).
+   `render` lädt fehlende Archiv-Shots automatisch nach – auch Shots aus anderen Events, wenn sie in `shots.json` stehen.
 5. **Entwürfe**: Schnittplan nach `02_Entwürfe/<event>/`, Videos per `SendUserFile` an den User
    (Videos nach Drive hochladen geht nur mit `GDRIVE_*`-Secrets).
 6. Komprimiertes 1080p-Archiv (spart GB, Originale weg) ebenfalls nur mit `GDRIVE_*`-Secrets – sonst bleiben die Originale im Archiv.

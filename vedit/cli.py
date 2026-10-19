@@ -8,6 +8,7 @@ Ablauf für ein neues Event:
   hochladen <event>               Exporte + Kontext.md + Schnittplan.txt nach 02_Entwürfe
 """
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -112,9 +113,10 @@ def cmd_render(a, preview=False):
         ids = read_json(ed / "event.json").get("drive_ids", {})
         for sid in sorted(need):
             datei = shots[sid]["datei"]
+            fid = shots[sid].get("drive_id") or ids.get(datei)
             if not (wd / "raw" / datei).exists():
-                if datei in ids:
-                    drive.link_download(ids[datei], wd / "raw" / datei)
+                if fid:
+                    drive.link_download(fid, wd / "raw" / datei)
                 else:
                     drive.download_file(f"{quelle}/{datei}", wd / "raw")
     for v in _select(ed, a.nr):
@@ -124,6 +126,40 @@ def cmd_render(a, preview=False):
             print(render.render_video(ed, wd, v, preview, None, "_OHNE-MUSIK"))
         else:
             print(render.render_video(ed, wd, v, preview))
+
+
+def cmd_archiv(a):
+    """Archiv-Index über alle Events – damit alte Shots jederzeit wieder auffindbar sind."""
+    for ed in sorted(p for p in config.EDITS.iterdir() if (p / "shots.json").exists()):
+        ev = read_json(ed / "event.json", {})
+        shots = read_json(ed / "shots.json")
+        mins = sum(s["dauer"] for s in shots.values()) / 60
+        print(f"{ed.name}  ({len(shots)} Shots, {mins:.1f} min, Drive-Ordner {ev.get('archiv_ordner_id', '–')})")
+        if a.lang:
+            for sid, s in shots.items():
+                print(f"  {sid}  {s['dauer']:>7.1f} s  {s['breite']}x{s['hoehe']}  "
+                      f"{s.get('original', s['datei'])}  {s.get('drive_id', '')}")
+
+
+def cmd_archiv_plan(a):
+    """Gibt aus, wie die Eingangs-Dateien im Drive umbenannt/verschoben werden (für den Drive-Connector)
+    und trägt Drive-IDs + Archivnamen in shots.json ein."""
+    ed, _ = _event_dirs(a.event)
+    ev = read_json(ed / "event.json")
+    ids = ev.get("drive_ids", {})
+    shots = read_json(ed / "shots.json")
+    plan = []
+    for sid, s in shots.items():
+        orig = s.get("original", s["datei"])
+        fid = s.get("drive_id") or ids.get(orig)
+        if not fid:
+            print(f"! {sid}: keine Drive-ID für {orig}", file=sys.stderr)
+            continue
+        s["drive_id"], s["original"] = fid, orig
+        s["archiv_name"] = f"{sid}{Path(orig).suffix.upper()}"
+        plan.append({"fileId": fid, "title": s["archiv_name"], "description": f"Original: {orig}"})
+    write_json(ed / "shots.json", shots)
+    print(json.dumps(plan, ensure_ascii=False, indent=1))
 
 
 def cmd_hochladen(a):
@@ -162,6 +198,12 @@ def main(argv=None):
         r.add_argument("event")
         r.add_argument("nr", nargs="*")
         r.set_defaults(f=lambda a, prev=prev: cmd_render(a, prev))
+    ar = s.add_parser("archiv", help="Archiv-Index aller Events")
+    ar.add_argument("--lang", action="store_true", help="alle Shots auflisten")
+    ar.set_defaults(f=cmd_archiv)
+    ap = s.add_parser("archiv-plan", help="Umbenenn-/Verschiebeplan fürs Drive-Archiv")
+    ap.add_argument("event")
+    ap.set_defaults(f=cmd_archiv_plan)
     h = s.add_parser("hochladen")
     h.add_argument("event")
     h.add_argument("--vorschau", action="store_true", help="Vorschauen statt finaler Exporte")
