@@ -66,7 +66,7 @@ auf Deutsch, und liefere Ergebnisse als Drive-Links bzw. Dateinamen statt langer
     Mehrere Leute, die nicht in 9:16 passen, oder kein Gesicht → `voll`.
   - `voll`: ganzes 16:9-Bild mittig, dasselbe Video unscharf als Hintergrund. Für Gruppen, Reaktionen, Handy-Chaos.
   - Punch-in = gleicher Shot als neuer Clip mit `zoom` 1.15–1.3 auf eine Pointe (nie enger, Gesicht bleibt oberes Drittel).
-  - Entscheidungen landen in `edits/<event>/reframe.json` (Cache; löschen = neu berechnen).
+  - Entscheidungen landen in `work/<event>/reframe.json` (Cache; löschen = neu berechnen).
 - `pos`: oben | kicker (gelbe Zeile darüber) | mitte | unten
 - Mit `musik` entstehen automatisch `…_PREVIEW.mp4` (mit Song) und `…_OHNE-MUSIK.mp4` (Song in der App drunterlegen).
 - Dateiname: `<datum>_<Fokus>_<Typ>_<Reel|YouTube>_<NN>_<Titel>.mp4`

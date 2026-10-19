@@ -113,7 +113,7 @@ def resolve_framing(c: dict, meta: dict, event_dir: Path, work_dir: Path, w: int
         src = work_dir / "raw" / meta["datei"]
     key = f"{c['shot']}|{c['von']}|{c['bis']}|{zoom}|{w}x{h}"
     p = reframe.cached_plan(
-        event_dir / "reframe.json", key,
+        work_dir / "reframe.json", key,
         lambda: reframe.plan(reframe.analyze(src, c["von"], c["bis"], meta["breite"], meta["hoehe"]),
                              meta["breite"], meta["hoehe"], w, h, zoom))
     if modus == "crop" and p["modus"] == "voll":     # crop erzwungen, aber kein Gesicht → Mitte
