@@ -1143,6 +1143,41 @@
           "pos": "oben"
         }
       ]
+    },
+    {
+      "nr": "31",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Cheesies",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-03",
+          "von": 6.0,
+          "bis": 20.6,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-03",
+          "von": 31.5,
+          "bis": 33.6,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "SAMSTAG 22:13 · STREETFOOD",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "WE GOT THEM CHEESIES.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
     }
   ]
 }
