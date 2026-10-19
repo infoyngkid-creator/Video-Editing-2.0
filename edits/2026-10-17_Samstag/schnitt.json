@@ -727,6 +727,34 @@
       ]
     },
     {
+      "nr": "23",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-17-Finale",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-10",
+          "von": 169.3,
+          "bis": 188.1
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 17 · FINALE · 23:10",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DIE IDEE.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
       "nr": "24",
       "typ": "Vlog",
       "fokus": "Beide",
@@ -751,6 +779,325 @@
           "von": 0,
           "bis": 2.6,
           "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "25",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Meisterwerk",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-10",
+          "von": 51.6,
+          "bis": 54.5
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 65.1,
+          "bis": 69.6
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 73.9,
+          "bis": 79.8
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 122.5,
+          "bis": 124.8
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 150.2,
+          "bis": 151.7
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO-TÜR · 23:07",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "PICASSO.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "26",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-Supercut",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 11.1,
+          "bis": 24.0,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 268.4,
+          "bis": 272.8,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 248.9,
+          "bis": 253.1,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 523.6,
+          "bis": 526.7,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 531.8,
+          "bis": 535.6,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 563.8,
+          "bis": 569.3,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 608.4,
+          "bis": 611.1,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 671.5,
+          "bis": 681.1,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-08",
+          "von": 243.3,
+          "bis": 248.1
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 176.4,
+          "bis": 188.1
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER: DIE GANZE SAGA.",
+          "von": 0,
+          "bis": 2.8,
+          "pos": "oben"
+        },
+        {
+          "text": "21:07",
+          "von": 0.0,
+          "bis": 1.8,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:11",
+          "von": 12.9,
+          "bis": 14.700000000000001,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:11",
+          "von": 17.300000000000033,
+          "bis": 19.100000000000033,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:15",
+          "von": 21.50000000000002,
+          "bis": 23.300000000000022,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:16",
+          "von": 24.600000000000044,
+          "bis": 26.400000000000045,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:16",
+          "von": 28.400000000000112,
+          "bis": 30.200000000000113,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:17",
+          "von": 33.90000000000011,
+          "bis": 35.70000000000011,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:18",
+          "von": 36.60000000000016,
+          "bis": 38.400000000000155,
+          "pos": "kicker"
+        },
+        {
+          "text": "22:59 · STUDIO",
+          "von": 46.20000000000018,
+          "bis": 48.00000000000018,
+          "pos": "kicker"
+        },
+        {
+          "text": "23:10 · BAD",
+          "von": 51.00000000000016,
+          "bis": 52.80000000000016,
+          "pos": "kicker"
+        }
+      ]
+    },
+    {
+      "nr": "27",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Best-of-Samstag",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-06",
+          "von": 32.3,
+          "bis": 39.3
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 12.0,
+          "bis": 17.1
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 23.6,
+          "bis": 24.95
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 200.4,
+          "bis": 204.9
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 214.2,
+          "bis": 216.5
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 673.9,
+          "bis": 681.1,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 176.4,
+          "bis": 179.7
+        }
+      ],
+      "texte": [
+        {
+          "text": "SAMSTAG IN 30 SEKUNDEN.",
+          "von": 0,
+          "bis": 2.8,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "28",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Wir-distanzieren-uns-Hook",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-09",
+          "von": 214.2,
+          "bis": 216.5
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 194.3,
+          "bis": 197.6
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 200.4,
+          "bis": 204.9
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 208.9,
+          "bis": 211.4
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 211.4,
+          "bis": 223.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "WIR DISTANZIEREN UNS.",
+          "von": 0,
+          "bis": 2.3,
+          "pos": "oben"
+        },
+        {
+          "text": "STUDIO · SAMSTAG 23:02",
+          "von": 2.3,
+          "bis": 5.0,
+          "pos": "kicker"
+        }
+      ]
+    },
+    {
+      "nr": "29",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-Insta-Story-Hook",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 268.4,
+          "bis": 271.5,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 260.4,
+          "bis": 290.4,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "FREMDEN MENSCHEN VERSPROCHEN.",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "oben"
+        },
+        {
+          "text": "PAULS EIER · 21:11",
+          "von": 3.0,
+          "bis": 5.5,
+          "pos": "kicker"
         }
       ]
     }

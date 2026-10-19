@@ -1,2175 +1,1860 @@
 {
-  "engine": "whisper-small+medium",
-  "words": [
-    {
-      "w": "Das",
-      "s": 2.8,
-      "e": 3.16,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 3.16,
-      "e": 3.2,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 3.2,
-      "e": 3.2,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Tier,",
-      "s": 3.2,
-      "e": 3.28,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 3.48,
-      "e": 3.66,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wir",
-      "s": 3.66,
-      "e": 3.82,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "nachhause",
-      "s": 3.82,
-      "e": 4.34,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "haben.",
-      "s": 4.34,
-      "e": 4.36,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ist",
-      "s": 6.76,
-      "e": 7.12,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 7.12,
-      "e": 7.2,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 7.2,
-      "e": 7.28,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Schirm",
-      "s": 7.28,
-      "e": 7.36,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "oder",
-      "s": 7.36,
-      "e": 7.56,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 7.56,
-      "e": 7.56,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Haustausenprogramm?",
-      "s": 7.56,
-      "e": 8.42,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ein",
-      "s": 8.66,
-      "e": 9.0,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gì",
-      "s": 9.0,
-      "e": 9.84,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "für",
-      "s": 9.84,
-      "e": 10.0,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 10.0,
-      "e": 10.0,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Tier",
-      "s": 10.0,
-      "e": 10.0,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 10.0,
-      "e": 10.1,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "aber",
-      "s": 10.1,
-      "e": 10.14,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "keine",
-      "s": 10.14,
-      "e": 10.44,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Filterkette.",
-      "s": 10.44,
-      "e": 10.72,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Geil!",
-      "s": 13.24,
-      "e": 13.6,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ist",
-      "s": 14.88,
-      "e": 15.08,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "der",
-      "s": 15.08,
-      "e": 15.12,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "eine",
-      "s": 15.12,
-      "e": 15.24,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Türröftin?",
-      "s": 15.24,
-      "e": 15.5,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ja,",
-      "s": 17.8,
-      "e": 18.16,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "der",
-      "s": 18.16,
-      "e": 18.16,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 18.16,
-      "e": 18.28,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 18.28,
-      "e": 18.4,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Türröftin.",
-      "s": 18.4,
-      "e": 18.92,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ja,",
-      "s": 27.22,
-      "e": 27.58,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 27.64,
-      "e": 27.72,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 27.72,
-      "e": 27.76,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kein",
-      "s": 27.76,
-      "e": 27.82,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Glascheiben",
-      "s": 27.82,
-      "e": 28.28,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "mehr",
-      "s": 28.28,
-      "e": 28.4,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "noch.",
-      "s": 28.4,
-      "e": 28.46,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Diese",
-      "s": 28.54,
-      "e": 28.72,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Tür",
-      "s": 28.72,
-      "e": 28.88,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 28.88,
-      "e": 29.0,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "da.",
-      "s": 29.0,
-      "e": 29.14,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Diese",
-      "s": 29.14,
-      "e": 29.76,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Tür",
-      "s": 29.76,
-      "e": 30.18,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 30.18,
-      "e": 30.46,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "maximal",
-      "s": 30.46,
-      "e": 31.12,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "da.",
-      "s": 31.12,
-      "e": 31.34,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Diese",
-      "s": 31.54,
-      "e": 31.68,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Tür",
-      "s": 31.68,
-      "e": 31.96,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 31.96,
-      "e": 32.1,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "dansgegeben.",
-      "s": 32.1,
-      "e": 32.58,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 38.51,
-      "e": 39.39,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "habe",
-      "s": 39.39,
-      "e": 40.27,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "auch",
-      "s": 40.27,
-      "e": 40.47,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 40.47,
-      "e": 41.03,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Los",
-      "s": 41.03,
-      "e": 41.03,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "da,",
-      "s": 41.03,
-      "e": 41.35,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "aber",
-      "s": 41.55,
-      "e": 41.59,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "keine",
-      "s": 41.59,
-      "e": 41.89,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Links.",
-      "s": 41.89,
-      "e": 42.81,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 43.27,
-      "e": 43.39,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "habe",
-      "s": 43.39,
-      "e": 43.39,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "meine",
-      "s": 43.39,
-      "e": 44.47,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Links.",
-      "s": 44.47,
-      "e": 44.69,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 45.59,
-      "e": 45.87,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "habe",
-      "s": 45.87,
-      "e": 45.91,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "meine",
-      "s": 45.91,
-      "e": 47.81,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Links.",
-      "s": 47.81,
-      "e": 47.81,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 48.71,
-      "e": 49.07,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "habe",
-      "s": 49.07,
-      "e": 51.89,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "meine",
-      "s": 51.89,
-      "e": 52.99,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Links.",
-      "s": 52.99,
-      "e": 54.21,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Nein,",
-      "s": 54.21,
-      "e": 54.21,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 54.39,
-      "e": 54.47,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "bin",
-      "s": 54.47,
-      "e": 54.59,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ich",
-      "s": 54.59,
-      "e": 54.67,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "nicht.",
-      "s": 54.67,
-      "e": 54.79,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Wie",
-      "s": 58.63,
-      "e": 58.95,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kann",
-      "s": 65.32,
-      "e": 65.64,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 65.64,
-      "e": 65.7,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "so?",
-      "s": 65.7,
-      "e": 65.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Schüchtern,",
-      "s": 67.58,
-      "e": 67.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wie",
-      "s": 67.98,
-      "e": 68.08,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gut",
-      "s": 68.08,
-      "e": 68.2,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kannst",
-      "s": 68.2,
-      "e": 68.4,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "du",
-      "s": 68.4,
-      "e": 68.5,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das?",
-      "s": 68.5,
-      "e": 68.64,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Gut.",
-      "s": 71.06,
-      "e": 71.38,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Mach",
-      "s": 73.04,
-      "e": 73.36,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gerne",
-      "s": 73.36,
-      "e": 73.58,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "was",
-      "s": 73.58,
-      "e": 73.74,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "auf",
-      "s": 73.74,
-      "e": 73.84,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "die",
-      "s": 73.84,
-      "e": 73.98,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Lärm.",
-      "s": 73.98,
-      "e": 74.36,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Das",
-      "s": 74.46,
-      "e": 74.64,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kann",
-      "s": 74.64,
-      "e": 74.78,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "zu",
-      "s": 74.78,
-      "e": 74.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gut",
-      "s": 74.9,
-      "e": 75.08,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "nicht.",
-      "s": 75.08,
-      "e": 75.22,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Das",
-      "s": 77.98,
-      "e": 78.3,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kann",
-      "s": 78.3,
-      "e": 78.62,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ich",
-      "s": 78.62,
-      "e": 78.72,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "nicht",
-      "s": 78.72,
-      "e": 78.88,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gut,",
-      "s": 78.88,
-      "e": 79.08,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "leider.",
-      "s": 79.18,
-      "e": 79.24,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Hast",
-      "s": 80.8,
-      "e": 81.12,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "du",
-      "s": 81.12,
-      "e": 81.22,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 81.22,
-      "e": 81.3,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "schon,",
-      "s": 81.3,
-      "e": 81.44,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "musst",
-      "s": 81.54,
-      "e": 81.62,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "du",
-      "s": 81.62,
-      "e": 81.68,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "irgendwas",
-      "s": 81.68,
-      "e": 81.86,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "machen?",
-      "s": 81.86,
-      "e": 82.04,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Nein,",
-      "s": 82.46,
-      "e": 82.7,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "du",
-      "s": 82.84,
-      "e": 82.84,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "musst",
-      "s": 82.84,
-      "e": 82.92,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "einfach.",
-      "s": 82.92,
-      "e": 83.24,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ja,",
-      "s": 86.78,
-      "e": 87.14,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "okay,",
-      "s": 87.14,
-      "e": 87.5,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "okay.",
-      "s": 87.62,
-      "e": 88.22,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Du",
-      "s": 88.44,
-      "e": 88.48,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "hast",
-      "s": 88.48,
-      "e": 88.72,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "eine",
-      "s": 88.72,
-      "e": 88.72,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ecke",
-      "s": 88.72,
-      "e": 88.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "am",
-      "s": 88.9,
-      "e": 89.06,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "besten",
-      "s": 89.06,
-      "e": 89.32,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "angekommen.",
-      "s": 89.32,
-      "e": 90.0,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Du",
-      "s": 90.22,
-      "e": 90.22,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "hast",
-      "s": 90.22,
-      "e": 90.54,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gekackt.",
-      "s": 90.54,
-      "e": 91.72,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Was",
-      "s": 100.1,
-      "e": 100.46,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 100.46,
-      "e": 100.82,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 100.82,
-      "e": 100.94,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "für",
-      "s": 100.94,
-      "e": 101.14,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 101.14,
-      "e": 101.22,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "S?",
-      "s": 101.22,
-      "e": 101.44,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Halsmol,",
-      "s": 102.38,
-      "e": 102.74,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "okay.",
-      "s": 102.88,
-      "e": 103.04,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 103.24,
-      "e": 103.36,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kann",
-      "s": 103.36,
-      "e": 103.5,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "es",
-      "s": 103.5,
-      "e": 103.62,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "nicht",
-      "s": 103.62,
-      "e": 103.7,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gut.",
-      "s": 103.7,
-      "e": 103.88,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 104.82,
-      "e": 105.04,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "dachte,",
-      "s": 105.04,
-      "e": 105.12,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "du",
-      "s": 105.3,
-      "e": 105.3,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "bist",
-      "s": 105.3,
-      "e": 105.4,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "hier",
-      "s": 105.4,
-      "e": 105.54,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "PS-Guard.",
-      "s": 105.54,
-      "e": 106.06,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Du",
-      "s": 106.08,
-      "e": 106.2,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "willst",
-      "s": 106.2,
-      "e": 106.38,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "noch",
-      "s": 106.38,
-      "e": 106.48,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "was",
-      "s": 106.48,
-      "e": 106.66,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "zu",
-      "s": 106.66,
-      "e": 106.84,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "suchen?",
-      "s": 106.84,
-      "e": 106.94,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 107.2,
-      "e": 107.38,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "will",
-      "s": 107.38,
-      "e": 107.38,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "noch",
-      "s": 107.38,
-      "e": 107.96,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 107.96,
-      "e": 108.06,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "bisschen",
-      "s": 108.06,
-      "e": 108.24,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "die",
-      "s": 108.24,
-      "e": 108.48,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Tests.",
-      "s": 108.48,
-      "e": 108.7,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 111.34,
-      "e": 111.7,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "versuch",
-      "s": 111.7,
-      "e": 112.06,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "mal,",
-      "s": 112.06,
-      "e": 112.24,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wo",
-      "s": 112.3,
-      "e": 112.42,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "der",
-      "s": 112.42,
-      "e": 112.5,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "was",
-      "s": 112.5,
-      "e": 112.62,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "geht.",
-      "s": 112.62,
-      "e": 112.78,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Er",
-      "s": 120.54,
-      "e": 120.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "sollte",
-      "s": 122.72,
-      "e": 123.08,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "mir",
-      "s": 123.08,
-      "e": 123.26,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "niemals",
-      "s": 123.26,
-      "e": 123.48,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wieder",
-      "s": 123.48,
-      "e": 123.64,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "in",
-      "s": 123.64,
-      "e": 123.74,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "den",
-      "s": 123.74,
-      "e": 123.82,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Stiff",
-      "s": 123.82,
-      "e": 123.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "nicht",
-      "s": 123.9,
-      "e": 124.04,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "angehen.",
-      "s": 124.04,
-      "e": 124.3,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Du",
-      "s": 132.45,
-      "e": 132.81,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "denkst,",
-      "s": 132.81,
-      "e": 133.11,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "du",
-      "s": 133.13,
-      "e": 133.27,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "denkst,",
-      "s": 133.27,
-      "e": 133.65,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "er",
-      "s": 133.71,
-      "e": 133.73,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "will",
-      "s": 133.73,
-      "e": 133.85,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "fragt.",
-      "s": 133.85,
-      "e": 134.01,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Das",
-      "s": 134.09,
-      "e": 134.33,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "geht",
-      "s": 134.33,
-      "e": 134.75,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "doch.",
-      "s": 134.75,
-      "e": 134.91,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ja,",
-      "s": 135.09,
-      "e": 135.13,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 135.83,
-      "e": 136.05,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "geht",
-      "s": 136.05,
-      "e": 136.17,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "über",
-      "s": 136.17,
-      "e": 136.31,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gute",
-      "s": 136.31,
-      "e": 136.51,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Richtungen.",
-      "s": 136.51,
-      "e": 136.89,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Wir",
-      "s": 140.23,
-      "e": 140.61,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "machen",
-      "s": 140.61,
-      "e": 140.71,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "die",
-      "s": 140.71,
-      "e": 140.85,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Hundertprozette,",
-      "s": 140.85,
-      "e": 141.39,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "die",
-      "s": 141.41,
-      "e": 141.51,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gerade",
-      "s": 141.51,
-      "e": 141.63,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "sagt",
-      "s": 141.63,
-      "e": 141.85,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "du.",
-      "s": 141.85,
-      "e": 142.01,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Meisterwerk.",
-      "s": 150.25,
-      "e": 150.63,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ja,",
-      "s": 152.21,
-      "e": 152.43,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "dann",
-      "s": 152.51,
-      "e": 152.59,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "müssen",
-      "s": 152.59,
-      "e": 152.73,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wir",
-      "s": 152.73,
-      "e": 152.93,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "doch",
-      "s": 152.93,
-      "e": 153.03,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "alles",
-      "s": 153.03,
-      "e": 153.23,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "noch",
-      "s": 153.23,
-      "e": 153.31,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "interessieren.",
-      "s": 153.31,
-      "e": 154.05,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ja,",
-      "s": 154.13,
-      "e": 154.31,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wir",
-      "s": 154.41,
-      "e": 154.51,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "machen",
-      "s": 154.51,
-      "e": 154.55,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 154.55,
-      "e": 154.83,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "sogar",
-      "s": 154.83,
-      "e": 155.03,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "auch.",
-      "s": 155.03,
-      "e": 155.31,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Das,",
-      "s": 155.77,
-      "e": 156.07,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wir",
-      "s": 156.35,
-      "e": 156.39,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kümmern,",
-      "s": 156.39,
-      "e": 156.85,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kümmern.",
-      "s": 157.55,
-      "e": 157.75,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Alles",
-      "s": 157.91,
-      "e": 158.03,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gut.",
-      "s": 158.03,
-      "e": 158.13,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 159.29,
-      "e": 159.67,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "versuch",
-      "s": 159.67,
-      "e": 159.85,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "dir",
-      "s": 159.85,
-      "e": 159.99,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 159.99,
-      "e": 160.07,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 160.0,
-      "e": 160.08,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "versuchte",
-      "s": 160.08,
-      "e": 160.08,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 160.08,
-      "e": 160.1,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Erding.",
-      "s": 160.1,
-      "e": 161.04,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 161.06,
-      "e": 161.26,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "versuchte",
-      "s": 161.26,
-      "e": 161.74,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ein",
-      "s": 161.74,
-      "e": 161.86,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Erding,",
-      "s": 161.86,
-      "e": 162.06,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "was",
-      "s": 162.18,
-      "e": 163.2,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "würd",
-      "s": 163.2,
-      "e": 163.74,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ich",
-      "s": 163.74,
-      "e": 163.84,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "jetzt",
-      "s": 163.84,
-      "e": 164.02,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "hier",
-      "s": 164.02,
-      "e": 164.18,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "tun?",
-      "s": 164.18,
-      "e": 164.22,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Meistereil.",
-      "s": 167.06,
-      "e": 167.46,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Wo",
-      "s": 167.88,
-      "e": 168.1,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kann",
-      "s": 168.1,
-      "e": 168.16,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 168.16,
-      "e": 168.4,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Fissen",
-      "s": 168.4,
-      "e": 168.6,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "gehen?",
-      "s": 168.6,
-      "e": 168.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Auf",
-      "s": 169.78,
-      "e": 170.18,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "der",
-      "s": 170.18,
-      "e": 170.58,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Toilette",
-      "s": 170.58,
-      "e": 171.02,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "durch",
-      "s": 171.02,
-      "e": 171.42,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "am",
-      "s": 171.42,
-      "e": 171.68,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "besten.",
-      "s": 171.68,
-      "e": 171.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Stimmt,",
-      "s": 172.74,
-      "e": 173.14,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 173.32,
-      "e": 173.32,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wär",
-      "s": 173.32,
-      "e": 173.44,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ne",
-      "s": 173.44,
-      "e": 173.62,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Idee,",
-      "s": 173.62,
-      "e": 173.82,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ne?",
-      "s": 174.0,
-      "e": 174.06,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Paul,",
-      "s": 174.16,
-      "e": 174.28,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "das",
-      "s": 174.36,
-      "e": 174.48,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "wär",
-      "s": 174.48,
-      "e": 174.62,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "mal",
-      "s": 174.62,
-      "e": 174.78,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ne",
-      "s": 174.78,
-      "e": 175.0,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Idee,",
-      "s": 175.0,
-      "e": 175.28,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ne?",
-      "s": 175.3,
-      "e": 175.5,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Du",
-      "s": 176.7,
-      "e": 177.1,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "hochintelligenter",
-      "s": 177.1,
-      "e": 177.5,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Mann.",
-      "s": 177.5,
-      "e": 177.88,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Komm",
-      "s": 180.8,
-      "e": 181.2,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "mit",
-      "s": 181.2,
-      "e": 181.6,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "jetzt.",
-      "s": 181.6,
-      "e": 181.92,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 182.14,
-      "e": 182.34,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "kenn",
-      "s": 182.34,
-      "e": 182.48,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "jetzt",
-      "s": 182.48,
-      "e": 182.68,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "deine",
-      "s": 182.68,
-      "e": 182.84,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Eier,",
-      "s": 182.84,
-      "e": 183.14,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Bruder.",
-      "s": 183.24,
-      "e": 183.44,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Du",
-      "s": 183.54,
-      "e": 183.86,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "bist",
-      "s": 183.86,
-      "e": 184.2,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "so",
-      "s": 184.2,
-      "e": 184.46,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "fixiert",
-      "s": 184.46,
-      "e": 184.7,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "auf...",
-      "s": 184.7,
-      "e": 184.7,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Ich",
-      "s": 184.7,
-      "e": 184.88,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "verhalte",
-      "s": 184.88,
-      "e": 185.02,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "meine",
-      "s": 185.02,
-      "e": 185.24,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Augen",
-      "s": 185.24,
-      "e": 185.58,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "zu.",
-      "s": 185.58,
-      "e": 186.0,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Du",
-      "s": 186.28,
-      "e": 186.34,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "bist",
-      "s": 186.34,
-      "e": 186.62,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "fixiert",
-      "s": 186.62,
-      "e": 186.94,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "auf",
-      "s": 186.94,
-      "e": 187.1,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "meine",
-      "s": 187.1,
-      "e": 187.24,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Eier.",
-      "s": 187.24,
-      "e": 187.5,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Komm,",
-      "s": 193.2,
-      "e": 193.84,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "lass",
-      "s": 193.94,
-      "e": 194.14,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "mich",
-      "s": 194.14,
-      "e": 194.26,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "dich",
-      "s": 194.26,
-      "e": 194.58,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "sehen.",
-      "s": 194.58,
-      "e": 195.64,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Das",
-      "s": 204.16,
-      "e": 204.8,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 204.8,
-      "e": 204.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "cool.",
-      "s": 204.9,
-      "e": 205.24,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "Das",
-      "s": 205.7,
-      "e": 205.82,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ist",
-      "s": 205.82,
-      "e": 205.9,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "cool,",
-      "s": 205.9,
-      "e": 206.04,
-      "spk": null,
-      "event": false
-    },
-    {
-      "w": "ja.",
-      "s": 206.18,
-      "e": 206.54,
-      "spk": null,
-      "event": false
-    }
-  ]
+ "engine": "whisper-medium",
+ "words": [
+  {
+   "w": "Die",
+   "s": 2.68,
+   "e": 3.1,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tür",
+   "s": 3.1,
+   "e": 3.36,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 3.36,
+   "e": 3.62,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "wieder",
+   "s": 3.62,
+   "e": 3.68,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "angepackt,",
+   "s": 3.68,
+   "e": 4.38,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Digger.",
+   "s": 4.38,
+   "e": 4.72,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Das",
+   "s": 6.74,
+   "e": 7.12,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 7.12,
+   "e": 7.24,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "schon",
+   "s": 7.24,
+   "e": 7.38,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "mal",
+   "s": 7.38,
+   "e": 7.5,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "die",
+   "s": 7.5,
+   "e": 7.64,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Hausdurchsichtung,",
+   "s": 7.64,
+   "e": 8.26,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "oder?",
+   "s": 8.4,
+   "e": 8.68,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Warum",
+   "s": 9.2,
+   "e": 9.62,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 9.62,
+   "e": 9.8,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "die",
+   "s": 9.8,
+   "e": 9.88,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tür",
+   "s": 9.88,
+   "e": 10.04,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "so",
+   "s": 10.04,
+   "e": 10.26,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "gefüttert?",
+   "s": 10.26,
+   "e": 10.76,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Geil.",
+   "s": 14.44,
+   "e": 14.86,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Wo",
+   "s": 14.9,
+   "e": 15.02,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 15.02,
+   "e": 15.1,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "die",
+   "s": 15.1,
+   "e": 15.3,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tür",
+   "s": 15.3,
+   "e": 15.76,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "raufgehalten?",
+   "s": 15.76,
+   "e": 16.24,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 17.58,
+   "e": 18.0,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "denke,",
+   "s": 18.0,
+   "e": 18.22,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 18.3,
+   "e": 18.38,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "hat",
+   "s": 18.38,
+   "e": 18.48,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "keine",
+   "s": 18.48,
+   "e": 18.7,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Rolle.",
+   "s": 18.7,
+   "e": 18.88,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 19.16,
+   "e": 19.2,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "hoffe,",
+   "s": 19.2,
+   "e": 19.46,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 19.5,
+   "e": 19.66,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 19.66,
+   "e": 19.92,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "die",
+   "s": 19.92,
+   "e": 20.0,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tür.",
+   "s": 20.0,
+   "e": 20.02,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ist",
+   "s": 25.02,
+   "e": 25.44,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "die",
+   "s": 25.44,
+   "e": 25.68,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tür",
+   "s": 25.68,
+   "e": 25.88,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "gespritzt?",
+   "s": 25.88,
+   "e": 26.46,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ja,",
+   "s": 27.18,
+   "e": 27.6,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 27.62,
+   "e": 27.72,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 27.72,
+   "e": 27.82,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "keine",
+   "s": 27.82,
+   "e": 27.92,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Glasscheibe",
+   "s": 27.92,
+   "e": 28.32,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "mehr.",
+   "s": 28.32,
+   "e": 28.46,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Diese",
+   "s": 28.46,
+   "e": 28.8,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tür",
+   "s": 28.8,
+   "e": 28.92,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 28.92,
+   "e": 29.1,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "da.",
+   "s": 29.1,
+   "e": 29.24,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Diese",
+   "s": 29.64,
+   "e": 29.98,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tür",
+   "s": 29.98,
+   "e": 30.28,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 30.28,
+   "e": 30.7,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "maximal",
+   "s": 30.7,
+   "e": 31.22,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "da.",
+   "s": 31.22,
+   "e": 31.48,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Diese",
+   "s": 31.7,
+   "e": 31.76,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tür",
+   "s": 31.76,
+   "e": 32.04,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 32.04,
+   "e": 32.24,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ganz",
+   "s": 32.24,
+   "e": 32.44,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "lieb.",
+   "s": 32.44,
+   "e": 33.54,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Film",
+   "s": 51.79,
+   "e": 52.39,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das,",
+   "s": 52.39,
+   "e": 52.99,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "film",
+   "s": 53.25,
+   "e": 53.25,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das.",
+   "s": 53.25,
+   "e": 53.25,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Kannst",
+   "s": 53.25,
+   "e": 53.99,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "du",
+   "s": 53.99,
+   "e": 53.99,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das?",
+   "s": 53.99,
+   "e": 53.99,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 53.99,
+   "e": 54.01,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "kann",
+   "s": 54.01,
+   "e": 54.17,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das.",
+   "s": 54.17,
+   "e": 54.35,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Picasso.",
+   "s": 65.34,
+   "e": 65.84,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Tschüss,",
+   "s": 67.5,
+   "e": 67.82,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "wie",
+   "s": 67.9,
+   "e": 68.06,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "gut",
+   "s": 68.06,
+   "e": 68.32,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "kannst",
+   "s": 68.32,
+   "e": 68.42,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "du",
+   "s": 68.42,
+   "e": 69.32,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das?",
+   "s": 69.32,
+   "e": 69.32,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Das",
+   "s": 74.1,
+   "e": 74.62,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "kannst",
+   "s": 74.62,
+   "e": 74.88,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "du",
+   "s": 74.88,
+   "e": 74.96,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "gut,",
+   "s": 74.96,
+   "e": 75.2,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ne?",
+   "s": 75.2,
+   "e": 75.22,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Das",
+   "s": 75.94,
+   "e": 76.18,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "kann",
+   "s": 76.18,
+   "e": 76.38,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ich",
+   "s": 76.38,
+   "e": 78.36,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "nicht",
+   "s": 78.36,
+   "e": 78.98,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "gut,",
+   "s": 78.98,
+   "e": 79.16,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Alter.",
+   "s": 79.16,
+   "e": 79.46,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Musst",
+   "s": 81.14,
+   "e": 81.66,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "du",
+   "s": 81.66,
+   "e": 81.76,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "hier",
+   "s": 81.76,
+   "e": 81.82,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "irgendwas",
+   "s": 81.82,
+   "e": 81.94,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "machen?",
+   "s": 81.94,
+   "e": 82.16,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Nein,",
+   "s": 82.48,
+   "e": 82.76,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "du",
+   "s": 82.86,
+   "e": 82.86,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "musst",
+   "s": 82.86,
+   "e": 82.98,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "einfach...",
+   "s": 82.98,
+   "e": 84.78,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ja,",
+   "s": 85.94,
+   "e": 86.46,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "okay,",
+   "s": 87.36,
+   "e": 87.56,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "okay.",
+   "s": 87.56,
+   "e": 87.82,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Du",
+   "s": 87.82,
+   "e": 87.82,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "hast",
+   "s": 87.82,
+   "e": 88.64,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "dir",
+   "s": 88.64,
+   "e": 88.64,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "eine",
+   "s": 88.64,
+   "e": 88.74,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ecke",
+   "s": 88.74,
+   "e": 89.04,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "am",
+   "s": 89.04,
+   "e": 89.16,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "besten",
+   "s": 89.16,
+   "e": 89.62,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ausgemacht.",
+   "s": 89.62,
+   "e": 90.18,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Du",
+   "s": 90.84,
+   "e": 90.88,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "hast",
+   "s": 90.88,
+   "e": 91.12,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "verkackt.",
+   "s": 91.12,
+   "e": 92.1,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Was",
+   "s": 100.02,
+   "e": 100.46,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ist",
+   "s": 100.46,
+   "e": 100.9,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 100.9,
+   "e": 101.06,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "für",
+   "s": 101.06,
+   "e": 101.22,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ein",
+   "s": 101.22,
+   "e": 101.3,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "S?",
+   "s": 101.3,
+   "e": 101.52,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Halt's",
+   "s": 102.08,
+   "e": 102.52,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "mit",
+   "s": 102.52,
+   "e": 102.64,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "dem",
+   "s": 102.64,
+   "e": 102.64,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Maul,",
+   "s": 102.64,
+   "e": 102.86,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "okay?",
+   "s": 103.06,
+   "e": 103.2,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 103.32,
+   "e": 103.38,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "kann's",
+   "s": 103.38,
+   "e": 103.7,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "nicht",
+   "s": 103.7,
+   "e": 103.8,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "gut.",
+   "s": 103.8,
+   "e": 104.06,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 104.96,
+   "e": 105.04,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "dachte,",
+   "s": 105.04,
+   "e": 105.24,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "du",
+   "s": 105.3,
+   "e": 105.5,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "bist",
+   "s": 105.5,
+   "e": 105.5,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "hier",
+   "s": 105.5,
+   "e": 105.68,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "PS-Gadwitchen.",
+   "s": 105.68,
+   "e": 106.48,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Was",
+   "s": 106.5,
+   "e": 106.78,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "versuchst",
+   "s": 106.78,
+   "e": 107.14,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "du",
+   "s": 107.14,
+   "e": 107.14,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "denn?",
+   "s": 107.14,
+   "e": 107.3,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 111.3,
+   "e": 111.74,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "versuch",
+   "s": 111.74,
+   "e": 112.18,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "mal,",
+   "s": 112.18,
+   "e": 112.32,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "wo",
+   "s": 112.32,
+   "e": 112.46,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "da",
+   "s": 112.46,
+   "e": 112.54,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "was",
+   "s": 112.54,
+   "e": 112.72,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "geht.",
+   "s": 112.72,
+   "e": 112.96,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Er",
+   "s": 122.68,
+   "e": 123.04,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "sollte",
+   "s": 123.04,
+   "e": 123.18,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "mir",
+   "s": 123.18,
+   "e": 123.32,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "niemals",
+   "s": 123.32,
+   "e": 123.56,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "wieder",
+   "s": 123.56,
+   "e": 123.72,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ein",
+   "s": 123.72,
+   "e": 123.84,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Stift",
+   "s": 123.84,
+   "e": 124.02,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "in",
+   "s": 124.02,
+   "e": 124.14,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "die",
+   "s": 124.14,
+   "e": 124.14,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Hand",
+   "s": 124.14,
+   "e": 124.2,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "geben.",
+   "s": 124.2,
+   "e": 124.48,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ja,",
+   "s": 124.48,
+   "e": 124.48,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Torsten,",
+   "s": 130.53,
+   "e": 134.47,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 134.59,
+   "e": 134.59,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "geht",
+   "s": 134.59,
+   "e": 134.81,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "doch.",
+   "s": 134.81,
+   "e": 135.05,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ja,",
+   "s": 135.95,
+   "e": 135.95,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 135.95,
+   "e": 136.13,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "geht",
+   "s": 136.13,
+   "e": 136.27,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "in",
+   "s": 136.27,
+   "e": 136.39,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "eine",
+   "s": 136.39,
+   "e": 136.41,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "gute",
+   "s": 136.41,
+   "e": 136.59,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Richtung.",
+   "s": 136.59,
+   "e": 137.07,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ein",
+   "s": 150.43,
+   "e": 150.79,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Meisterwerk.",
+   "s": 150.79,
+   "e": 151.15,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ja,",
+   "s": 151.15,
+   "e": 151.79,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "dann",
+   "s": 152.49,
+   "e": 152.63,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "müssen",
+   "s": 152.63,
+   "e": 152.83,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "wir",
+   "s": 152.83,
+   "e": 152.95,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "noch",
+   "s": 152.95,
+   "e": 153.05,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ein",
+   "s": 153.05,
+   "e": 153.23,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "bisschen",
+   "s": 153.23,
+   "e": 153.23,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Raum",
+   "s": 153.23,
+   "e": 153.55,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "im",
+   "s": 153.55,
+   "e": 153.75,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ganzen",
+   "s": 153.75,
+   "e": 154.05,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ding",
+   "s": 154.05,
+   "e": 155.31,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "haben.",
+   "s": 155.31,
+   "e": 155.31,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Das,",
+   "s": 156.07,
+   "e": 156.11,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "wir",
+   "s": 156.31,
+   "e": 156.55,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "kriegen",
+   "s": 156.55,
+   "e": 156.79,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "den,",
+   "s": 156.79,
+   "e": 157.05,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "kriegen",
+   "s": 157.07,
+   "e": 157.25,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "den,",
+   "s": 157.25,
+   "e": 157.81,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "alles",
+   "s": 157.95,
+   "e": 158.07,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "gut.",
+   "s": 158.07,
+   "e": 158.43,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 159.39,
+   "e": 159.69,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "besorge",
+   "s": 159.69,
+   "e": 159.91,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "den",
+   "s": 159.91,
+   "e": 160.09,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Erdinger.",
+   "s": 160.09,
+   "e": 161.09,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 161.09,
+   "e": 161.25,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "besorge",
+   "s": 161.25,
+   "e": 161.59,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "den",
+   "s": 161.59,
+   "e": 161.75,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Erdinger",
+   "s": 161.75,
+   "e": 162.15,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "immer.",
+   "s": 162.15,
+   "e": 162.35,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Das",
+   "s": 163.41,
+   "e": 163.53,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "würde",
+   "s": 163.53,
+   "e": 163.71,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ich",
+   "s": 163.71,
+   "e": 163.85,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "jetzt",
+   "s": 163.85,
+   "e": 163.97,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "nicht.",
+   "s": 163.97,
+   "e": 164.21,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Meisterei.",
+   "s": 166.73,
+   "e": 167.17,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Kann",
+   "s": 167.89,
+   "e": 168.11,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 168.11,
+   "e": 168.37,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "noch?",
+   "s": 168.37,
+   "e": 168.39,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 169.59,
+   "e": 170.01,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "muss",
+   "s": 170.01,
+   "e": 170.17,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "die",
+   "s": 170.17,
+   "e": 170.39,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "auf",
+   "s": 170.39,
+   "e": 170.43,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "der",
+   "s": 170.43,
+   "e": 170.65,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Toilette",
+   "s": 170.65,
+   "e": 171.05,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "dadurch",
+   "s": 171.05,
+   "e": 171.41,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "anbassen.",
+   "s": 171.41,
+   "e": 171.89,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Stimmt,",
+   "s": 172.71,
+   "e": 173.15,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 173.29,
+   "e": 173.33,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "wäre",
+   "s": 173.33,
+   "e": 173.45,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "eine",
+   "s": 173.45,
+   "e": 173.59,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Idee,",
+   "s": 173.59,
+   "e": 173.83,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ne?",
+   "s": 173.99,
+   "e": 174.03,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Paul,",
+   "s": 174.17,
+   "e": 174.27,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "das",
+   "s": 174.35,
+   "e": 174.51,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "wäre",
+   "s": 174.51,
+   "e": 174.65,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "mal",
+   "s": 174.65,
+   "e": 174.81,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "eine",
+   "s": 174.81,
+   "e": 175.03,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Idee,",
+   "s": 175.03,
+   "e": 175.29,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "ne?",
+   "s": 175.37,
+   "e": 175.51,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Du",
+   "s": 176.59,
+   "e": 177.03,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "hochintelligenter",
+   "s": 177.03,
+   "e": 177.47,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Mann,",
+   "s": 177.47,
+   "e": 177.89,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "du",
+   "s": 178.25,
+   "e": 178.47,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "hochintellig...",
+   "s": 178.47,
+   "e": 179.41,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Komm",
+   "s": 180.79,
+   "e": 181.35,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "mit",
+   "s": 181.35,
+   "e": 181.57,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "jetzt.",
+   "s": 181.57,
+   "e": 181.99,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 182.23,
+   "e": 182.33,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "scanne",
+   "s": 182.33,
+   "e": 182.59,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "jetzt",
+   "s": 182.59,
+   "e": 182.69,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "deine",
+   "s": 182.69,
+   "e": 182.83,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Eier,",
+   "s": 182.83,
+   "e": 183.15,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Bruder.",
+   "s": 183.27,
+   "e": 183.45,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 184.19,
+   "e": 184.75,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "halte",
+   "s": 184.75,
+   "e": 185.07,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "meine",
+   "s": 185.07,
+   "e": 185.25,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Augen",
+   "s": 185.25,
+   "e": 185.59,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "zu.",
+   "s": 185.59,
+   "e": 186.07,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Du",
+   "s": 186.33,
+   "e": 186.33,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "bist",
+   "s": 186.33,
+   "e": 186.57,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "fixiert",
+   "s": 186.57,
+   "e": 186.95,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "auf",
+   "s": 186.95,
+   "e": 187.11,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "meinen",
+   "s": 187.11,
+   "e": 187.21,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Eier.",
+   "s": 187.21,
+   "e": 187.57,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Links",
+   "s": 190.13,
+   "e": 190.43,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "oder",
+   "s": 190.43,
+   "e": 190.71,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "was?",
+   "s": 190.71,
+   "e": 190.97,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Ich",
+   "s": 192.39,
+   "e": 192.39,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "bin",
+   "s": 192.39,
+   "e": 192.61,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "da.",
+   "s": 192.61,
+   "e": 193.27,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Let",
+   "s": 193.65,
+   "e": 193.87,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "me",
+   "s": 193.87,
+   "e": 194.21,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "see",
+   "s": 194.21,
+   "e": 194.39,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "you.",
+   "s": 194.39,
+   "e": 195.27,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Geil.",
+   "s": 196.55,
+   "e": 196.85,
+   "spk": null,
+   "event": false
+  },
+  {
+   "w": "Cool.",
+   "s": 205.72,
+   "e": 205.98,
+   "spk": null,
+   "event": false
+  }
+ ]
 }
