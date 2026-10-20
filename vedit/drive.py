@@ -47,22 +47,22 @@ def download(path: str, dest: Path):
     dest.mkdir(parents=True, exist_ok=True)
     run(_base() + ["copy", remote(path), str(dest), "--transfers", "4",
                    "--include", "*.{mov,MOV,mp4,MP4,m4v,mkv,wav,mp3,m4a}",
-                   "--progress", "--stats-one-line"])
+                   "--stats-one-line", "--stats", "60s"])
 
 
 def download_file(path: str, dest_dir: Path):
     dest_dir.mkdir(parents=True, exist_ok=True)
-    run(_base() + ["copy", remote(path), str(dest_dir), "--progress", "--stats-one-line"])
+    run(_base() + ["copy", remote(path), str(dest_dir), "--stats-one-line", "--stats", "60s"])
 
 
 def upload(src: Path, path: str):
     """Datei oder Ordnerinhalt nach Drive kopieren (überschreibt nur Geändertes)."""
     if src.is_dir():
         run(_base() + ["copy", str(src), remote(path), "--transfers", "4",
-                       "--progress", "--stats-one-line"])
+                       "--stats-one-line", "--stats", "60s"])
     else:
         run(_base() + ["copyto", str(src), remote(f"{path}/{src.name}"),
-                       "--progress", "--stats-one-line"])
+                       "--stats-one-line", "--stats", "60s"])
 
 
 def is_upload_finished(path: str) -> tuple[bool, list]:

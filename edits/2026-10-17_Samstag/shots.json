@@ -10,7 +10,9 @@
     "audio": true,
     "drive_id": "1rv5pblRWUzS2Ygx5fzX4GgDJgLqUVJxx",
     "original": "IMG_0140.MOV",
-    "archiv_name": "JP-261017-01.MOV"
+    "archiv_name": "JP-261017-01.MOV",
+    "archiv_mb": 2.2,
+    "original_mb": 6.4
   },
   "JP-261017-02": {
     "datei": "IMG_0142.MOV",
@@ -23,7 +25,9 @@
     "audio": true,
     "drive_id": "1ISD-fxEyl7YjdXZhBhbuOdRfq7EJWHWq",
     "original": "IMG_0142.MOV",
-    "archiv_name": "JP-261017-02.MOV"
+    "archiv_name": "JP-261017-02.MOV",
+    "archiv_mb": 12.4,
+    "original_mb": 30.5
   },
   "JP-261017-03": {
     "datei": "IMG_0144.MOV",
@@ -36,7 +40,9 @@
     "audio": true,
     "drive_id": "1acbjYWMygApLHThn4JjI2Q05Kl2slmBh",
     "original": "IMG_0144.MOV",
-    "archiv_name": "JP-261017-03.MOV"
+    "archiv_name": "JP-261017-03.MOV",
+    "archiv_mb": 23.5,
+    "original_mb": 69.2
   },
   "JP-261017-04": {
     "datei": "IMG_0145.MOV",
@@ -49,7 +55,9 @@
     "audio": true,
     "drive_id": "1AAxz9eRHDCmK2eNgvCTwTaZZFHOoloaj",
     "original": "IMG_0145.MOV",
-    "archiv_name": "JP-261017-04.MOV"
+    "archiv_name": "JP-261017-04.MOV",
+    "archiv_mb": 12.2,
+    "original_mb": 59.2
   },
   "JP-261017-05": {
     "datei": "IMG_0146.MOV",
@@ -62,7 +70,9 @@
     "audio": true,
     "drive_id": "1ENwhgZPwjV_fuwqHLGyuxFcn31vX31KZ",
     "original": "IMG_0146.MOV",
-    "archiv_name": "JP-261017-05.MOV"
+    "archiv_name": "JP-261017-05.MOV",
+    "archiv_mb": 4.6,
+    "original_mb": 29.1
   },
   "JP-261017-06": {
     "datei": "IMG_0150.MOV",
@@ -75,7 +85,9 @@
     "audio": true,
     "drive_id": "117guRHK58EfIYW216HmodTCcYF2xDmWE",
     "original": "IMG_0150.MOV",
-    "archiv_name": "JP-261017-06.MOV"
+    "archiv_name": "JP-261017-06.MOV",
+    "archiv_mb": 21.2,
+    "original_mb": 119.5
   },
   "JP-261017-07": {
     "datei": "IMG_0151.MOV",
@@ -88,7 +100,9 @@
     "audio": true,
     "drive_id": "1rop2ciEJLGxAu8MsBG4kuN433MX5YO4p",
     "original": "IMG_0151.MOV",
-    "archiv_name": "JP-261017-07.MOV"
+    "archiv_name": "JP-261017-07.MOV",
+    "archiv_mb": 66.4,
+    "original_mb": 473.7
   },
   "JP-261017-08": {
     "datei": "IMG_0152.MOV",
@@ -101,7 +115,9 @@
     "audio": true,
     "drive_id": "1f_wnJrouUXFX2m-UOzeLlkTAgKOzs2E3",
     "original": "IMG_0152.MOV",
-    "archiv_name": "JP-261017-08.MOV"
+    "archiv_name": "JP-261017-08.MOV",
+    "archiv_mb": 90.5,
+    "original_mb": 666.4
   },
   "JP-261017-09": {
     "datei": "IMG_0153.MOV",
@@ -114,7 +130,9 @@
     "audio": true,
     "drive_id": "1269h3TkxRWJtDEPIRdl06i5I4Fxwtmlu",
     "original": "IMG_0153.MOV",
-    "archiv_name": "JP-261017-09.MOV"
+    "archiv_name": "JP-261017-09.MOV",
+    "archiv_mb": 49.3,
+    "original_mb": 348.5
   },
   "JP-261017-10": {
     "datei": "IMG_0154.MOV",
@@ -127,7 +145,9 @@
     "audio": true,
     "drive_id": "1Ii_vXnw5a6Q8UI6fkiG73S0zf3r34bul",
     "original": "IMG_0154.MOV",
-    "archiv_name": "JP-261017-10.MOV"
+    "archiv_name": "JP-261017-10.MOV",
+    "archiv_mb": 39.7,
+    "original_mb": 308.9
   },
   "JP-261017-11": {
     "datei": "IMG_0155.MOV",
@@ -140,7 +160,9 @@
     "audio": true,
     "drive_id": "1oKdMJBu_8zN5fF8x3p2pBn4ko0xTVeVr",
     "original": "IMG_0155.MOV",
-    "archiv_name": "JP-261017-11.MOV"
+    "archiv_name": "JP-261017-11.MOV",
+    "archiv_mb": 8.4,
+    "original_mb": 47.5
   },
   "JP-261017-12": {
     "datei": "copy_A8E77DF2.mov",
@@ -154,7 +176,9 @@
     "drive_id": "1DT0O0YzBkWqHDyJQ_dcvscXl9QdMb04n",
     "original": "copy_A8E77DF2.mov",
     "archiv_name": "JP-261017-12.MOV",
-    "hinweis": "In Drive nicht mehr vorhanden (vor Archivierung gelöscht) – nicht im Archiv"
+    "hinweis": "In Drive nicht mehr vorhanden (vor Archivierung gelöscht) – nicht im Archiv",
+    "archiv_mb": 3.4,
+    "original_mb": 12.7
   },
   "JP-261017-13": {
     "datei": "IMG_0141.MOV",
@@ -164,6 +188,8 @@
     "fps": 23.98,
     "hdr": true,
     "aufgenommen": "2026-10-17T21:07:06+0200",
-    "audio": true
+    "audio": true,
+    "archiv_mb": 131.9,
+    "original_mb": 729.7
   }
 }
