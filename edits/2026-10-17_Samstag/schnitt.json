@@ -1,0 +1,1183 @@
+{
+  "datum": "2026-10-17",
+  "videos": [
+    {
+      "nr": "01",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Wir-distanzieren-uns",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-09",
+          "von": 194.3,
+          "bis": 197.6
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 200.4,
+          "bis": 204.9
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 208.9,
+          "bis": 211.4
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 211.4,
+          "bis": 223.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 23:02",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "ALLES LEGAL.",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "oben"
+        },
+        {
+          "text": "STATEMENT.",
+          "von": 21.0,
+          "bis": 22.5,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "02",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Es-ist-Samstag",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-06",
+          "von": 26.4,
+          "bis": 39.0,
+          "modus": "voll"
+        },
+        {
+          "shot": "JP-261017-06",
+          "von": 39.0,
+          "bis": 43.8
+        }
+      ],
+      "texte": [
+        {
+          "text": "WEGEN DER NACHBARN …",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "03",
+      "typ": "Vlog",
+      "fokus": "PSGOTRICH",
+      "titel": "Mach-mal-Freestyle",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-09",
+          "von": 7.2,
+          "bis": 17.1,
+          "modus": "voll"
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 23.6,
+          "bis": 24.95
+        }
+      ],
+      "texte": [
+        {
+          "text": "FREESTYLE?",
+          "von": 0,
+          "bis": 2.0,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "04",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 260.4,
+          "bis": 272.9,
+          "modus": "voll",
+          "zoom": 1.3,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 530.9,
+          "bis": 535.7,
+          "modus": "voll",
+          "zoom": 1.3,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 671.7,
+          "bis": 681.3,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 181.0,
+          "bis": 188.0,
+          "modus": "voll"
+        }
+      ],
+      "texte": [
+        {
+          "text": "SAMSTAG 21:11 · IM AUTO",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "MISSION: 3D-SCAN",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "oben"
+        },
+        {
+          "text": "21:16 · IMMER NOCH",
+          "von": 12.5,
+          "bis": 15.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:18",
+          "von": 17.3,
+          "bis": 19.5,
+          "pos": "kicker"
+        },
+        {
+          "text": "23:10 · ZWEI STUNDEN SPÄTER",
+          "von": 26.9,
+          "bis": 29.6,
+          "pos": "kicker"
+        }
+      ]
+    },
+    {
+      "nr": "05",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-01-Das-Problem",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 11.1,
+          "bis": 36.1,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 1 · 21:07",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DAS PROBLEM.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "06",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-02-Breitbeinig",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 51.2,
+          "bis": 57.6,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 63.5,
+          "bis": 84.8,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 2 · 21:08",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DER PLAN.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "07",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-03-Niemand-hat-mich-oefter",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 97.0,
+          "bis": 111.3,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 113.3,
+          "bis": 119.0,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 3 · 21:08",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "WER WILL HIER WAS?",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "08",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-04-Nur-Pro-Modelle",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 150.6,
+          "bis": 172.6,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 4 · 21:09",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "TECHNIK-CHECK.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "09",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-05-Du-willst-an-meine-Eier",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 189.8,
+          "bis": 202.9,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 333.6,
+          "bis": 341.6,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 5 · 21:10",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "WER WILL HIER WAS? TEIL 2",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "10",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-06-Backpulver-Erfahrung",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 238.2,
+          "bis": 255.3,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 6 · 21:11",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DER EXPERTE.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "11",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-07-Insta-Story",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 260.4,
+          "bis": 290.4,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 7 · 21:11",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "ICH HAB EIN PROBLEM.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "12",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-08-Posten-wir-das",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 290.1,
+          "bis": 305.8,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 306.5,
+          "bis": 315.0,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 8 · 21:12",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "POSTEN WIR DAS?",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "13",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-09-Euphorisch",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 361.1,
+          "bis": 389.8,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 9 · 21:13",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "NICHT EMPÖRT. EUPHORISCH.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "14",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-10-Aufgabenaufteilung",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 545.6,
+          "bis": 569.4,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 10 · 21:16",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "AUFGABENVERTEILUNG.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "15",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-11-Ich-tue-das-fuer-dich",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 575.5,
+          "bis": 593.0,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 11 · 21:16",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "ICH TU DAS FÜR DICH.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "16",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-12-Cosplay",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 604.8,
+          "bis": 634.2,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 12 · 21:17",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "LET ME COOK.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "17",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-13-Grundsatzdiskussion",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 657.1,
+          "bis": 685.7,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 13 · 21:18",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "GRUNDSATZDISKUSSION.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "18",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-14-Studio-Edition",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-08",
+          "von": 221.8,
+          "bis": 234.6
+        },
+        {
+          "shot": "JP-261017-08",
+          "von": 238.0,
+          "bis": 251.0
+        },
+        {
+          "shot": "JP-261017-08",
+          "von": 259.4,
+          "bis": 262.6
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 14 · 22:58 IM STUDIO",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "NEUE LOCATION. GLEICHE MISSION.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "19",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-15-Der-Lauf",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-08",
+          "von": 277.9,
+          "bis": 298.6
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 15 · 23:00",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DIE ERKLÄRUNG.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "20",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-16-KI",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-08",
+          "von": 316.9,
+          "bis": 336.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 16 · 23:00",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "KI WIRD AUF UNS GETRAINED.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "21",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Weissburgunder",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-08",
+          "von": 162.8,
+          "bis": 190.2
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 22:58",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "FÜR FEINSCHMECKER.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "22",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Ich-verstehe-gar-nichts",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-09",
+          "von": 154.3,
+          "bis": 179.2
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 23:05",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "FL SEIT 8 JAHREN.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "23",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-17-Finale",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-10",
+          "von": 169.3,
+          "bis": 188.1
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER · TEIL 17 · FINALE · 23:10",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DIE IDEE.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "24",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Die-Muetze",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-06",
+          "von": 48.2,
+          "bis": 73.0
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 22:48",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "DIESE MÜTZE, NE?",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "25",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Meisterwerk",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-10",
+          "von": 51.6,
+          "bis": 54.5
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 65.1,
+          "bis": 69.6
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 73.9,
+          "bis": 79.8
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 122.5,
+          "bis": 124.8
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 150.2,
+          "bis": 151.7
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO-TÜR · 23:07",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "PICASSO.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "26",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-Supercut",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 11.1,
+          "bis": 24.0,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 268.4,
+          "bis": 272.8,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 248.9,
+          "bis": 253.1,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 523.6,
+          "bis": 526.7,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 531.8,
+          "bis": 535.6,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 563.8,
+          "bis": 569.3,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 608.4,
+          "bis": 611.1,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 671.5,
+          "bis": 681.1,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-08",
+          "von": 243.3,
+          "bis": 248.1
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 176.4,
+          "bis": 188.1
+        }
+      ],
+      "texte": [
+        {
+          "text": "PAULS EIER: DIE GANZE SAGA.",
+          "von": 0,
+          "bis": 2.8,
+          "pos": "oben"
+        },
+        {
+          "text": "21:07",
+          "von": 0.0,
+          "bis": 1.8,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:11",
+          "von": 12.9,
+          "bis": 14.700000000000001,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:11",
+          "von": 17.300000000000033,
+          "bis": 19.100000000000033,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:15",
+          "von": 21.50000000000002,
+          "bis": 23.300000000000022,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:16",
+          "von": 24.600000000000044,
+          "bis": 26.400000000000045,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:16",
+          "von": 28.400000000000112,
+          "bis": 30.200000000000113,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:17",
+          "von": 33.90000000000011,
+          "bis": 35.70000000000011,
+          "pos": "kicker"
+        },
+        {
+          "text": "21:18",
+          "von": 36.60000000000016,
+          "bis": 38.400000000000155,
+          "pos": "kicker"
+        },
+        {
+          "text": "22:59 · STUDIO",
+          "von": 46.20000000000018,
+          "bis": 48.00000000000018,
+          "pos": "kicker"
+        },
+        {
+          "text": "23:10 · BAD",
+          "von": 51.00000000000016,
+          "bis": 52.80000000000016,
+          "pos": "kicker"
+        }
+      ]
+    },
+    {
+      "nr": "27",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Best-of-Samstag",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-06",
+          "von": 32.3,
+          "bis": 39.3
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 12.0,
+          "bis": 17.1
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 23.6,
+          "bis": 24.95
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 200.4,
+          "bis": 204.9
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 214.2,
+          "bis": 216.5
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 673.9,
+          "bis": 681.1,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-10",
+          "von": 176.4,
+          "bis": 179.7
+        }
+      ],
+      "texte": [
+        {
+          "text": "SAMSTAG IN 30 SEKUNDEN.",
+          "von": 0,
+          "bis": 2.8,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "28",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Wir-distanzieren-uns-Hook",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-09",
+          "von": 214.2,
+          "bis": 216.5
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 194.3,
+          "bis": 197.6
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 200.4,
+          "bis": 204.9
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 208.9,
+          "bis": 211.4
+        },
+        {
+          "shot": "JP-261017-09",
+          "von": 211.4,
+          "bis": 223.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "WIR DISTANZIEREN UNS.",
+          "von": 0,
+          "bis": 2.3,
+          "pos": "oben"
+        },
+        {
+          "text": "STUDIO · SAMSTAG 23:02",
+          "von": 2.3,
+          "bis": 5.0,
+          "pos": "kicker"
+        }
+      ]
+    },
+    {
+      "nr": "29",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Pauls-Eier-Insta-Story-Hook",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-13",
+          "von": 268.4,
+          "bis": 271.5,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-13",
+          "von": 260.4,
+          "bis": 290.4,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "FREMDEN MENSCHEN VERSPROCHEN.",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "oben"
+        },
+        {
+          "text": "PAULS EIER · 21:11",
+          "von": 3.0,
+          "bis": 5.5,
+          "pos": "kicker"
+        }
+      ]
+    },
+    {
+      "nr": "30",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Beat-Bau",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-07",
+          "von": 14.1,
+          "bis": 26.0
+        },
+        {
+          "shot": "JP-261017-07",
+          "von": 34.2,
+          "bis": 45.0
+        },
+        {
+          "shot": "JP-261017-07",
+          "von": 71.6,
+          "bis": 80.4
+        },
+        {
+          "shot": "JP-261017-07",
+          "von": 87.2,
+          "bis": 91.1
+        }
+      ],
+      "texte": [
+        {
+          "text": "STUDIO · SAMSTAG 22:50",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "TRAP-BASSLINE.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    },
+    {
+      "nr": "31",
+      "typ": "Vlog",
+      "fokus": "Beide",
+      "titel": "Cheesies",
+      "format": "9:16",
+      "clips": [
+        {
+          "shot": "JP-261017-03",
+          "von": 6.0,
+          "bis": 20.6,
+          "vollzoom": 1.4
+        },
+        {
+          "shot": "JP-261017-03",
+          "von": 31.5,
+          "bis": 33.6,
+          "vollzoom": 1.4
+        }
+      ],
+      "texte": [
+        {
+          "text": "SAMSTAG 22:13 · STREETFOOD",
+          "von": 0,
+          "bis": 3.0,
+          "pos": "kicker"
+        },
+        {
+          "text": "WE GOT THEM CHEESIES.",
+          "von": 0,
+          "bis": 2.6,
+          "pos": "oben"
+        }
+      ]
+    }
+  ]
+}

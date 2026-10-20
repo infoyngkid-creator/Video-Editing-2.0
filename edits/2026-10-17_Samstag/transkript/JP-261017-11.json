@@ -1,0 +1,530 @@
+{
+  "engine": "whisper",
+  "words": [
+    {
+      "w": "My",
+      "s": 2.33,
+      "e": 2.89,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "vision",
+      "s": 2.89,
+      "e": 3.45,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "is",
+      "s": 3.45,
+      "e": 3.63,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "for",
+      "s": 3.63,
+      "e": 3.77,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "the",
+      "s": 3.77,
+      "e": 3.95,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Colonel.",
+      "s": 3.95,
+      "e": 4.09,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "It's",
+      "s": 4.81,
+      "e": 4.83,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "better",
+      "s": 4.83,
+      "e": 5.01,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "when",
+      "s": 5.01,
+      "e": 5.17,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "we",
+      "s": 5.17,
+      "e": 8.81,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "talk.",
+      "s": 8.81,
+      "e": 8.81,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Not",
+      "s": 8.87,
+      "e": 9.21,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "to",
+      "s": 9.21,
+      "e": 9.47,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "act",
+      "s": 9.47,
+      "e": 9.47,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "in",
+      "s": 9.47,
+      "e": 11.61,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "a",
+      "s": 11.61,
+      "e": 11.79,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "good",
+      "s": 11.79,
+      "e": 12.37,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "way.",
+      "s": 12.37,
+      "e": 12.39,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "You",
+      "s": 12.81,
+      "e": 12.89,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "belong.",
+      "s": 12.89,
+      "e": 12.89,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Back.",
+      "s": 14.63,
+      "e": 15.19,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "To",
+      "s": 15.19,
+      "e": 15.19,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "be",
+      "s": 15.19,
+      "e": 15.23,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "more",
+      "s": 15.23,
+      "e": 15.45,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "perfect.",
+      "s": 15.45,
+      "e": 16.41,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "So",
+      "s": 16.63,
+      "e": 17.11,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "you",
+      "s": 17.11,
+      "e": 17.75,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "are",
+      "s": 17.75,
+      "e": 17.75,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "a",
+      "s": 17.75,
+      "e": 17.75,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "great",
+      "s": 17.75,
+      "e": 17.83,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "actor.",
+      "s": 17.83,
+      "e": 19.79,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Du",
+      "s": 20.61,
+      "e": 20.97,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "bist",
+      "s": 20.97,
+      "e": 21.09,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ein",
+      "s": 21.09,
+      "e": 21.43,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Locher.",
+      "s": 21.43,
+      "e": 21.67,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Aber",
+      "s": 22.73,
+      "e": 23.29,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "du",
+      "s": 23.29,
+      "e": 23.29,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "musst",
+      "s": 23.29,
+      "e": 23.37,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "halt",
+      "s": 23.37,
+      "e": 24.05,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "was",
+      "s": 24.05,
+      "e": 24.23,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "vor",
+      "s": 24.23,
+      "e": 24.43,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "dir.",
+      "s": 24.43,
+      "e": 24.43,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Du",
+      "s": 25.15,
+      "e": 25.71,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "kannst",
+      "s": 25.71,
+      "e": 25.77,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "die",
+      "s": 25.77,
+      "e": 25.91,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Dgive",
+      "s": 25.91,
+      "e": 26.19,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "unheimlich",
+      "s": 26.19,
+      "e": 26.57,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "sehen.",
+      "s": 26.57,
+      "e": 26.85,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Das",
+      "s": 26.85,
+      "e": 26.99,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ist",
+      "s": 26.99,
+      "e": 27.13,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "perfekt,",
+      "s": 27.13,
+      "e": 27.53,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "das",
+      "s": 27.73,
+      "e": 27.79,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ist",
+      "s": 27.79,
+      "e": 28.01,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "gut.",
+      "s": 28.01,
+      "e": 28.01,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Dann",
+      "s": 28.41,
+      "e": 28.41,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "können",
+      "s": 28.41,
+      "e": 28.41,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "wir",
+      "s": 28.41,
+      "e": 28.53,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "uns",
+      "s": 28.53,
+      "e": 28.81,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "das",
+      "s": 28.81,
+      "e": 29.05,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "aussehen.",
+      "s": 29.05,
+      "e": 29.61,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Und",
+      "s": 30.43,
+      "e": 30.45,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "dann",
+      "s": 30.45,
+      "e": 30.79,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "gucken",
+      "s": 30.79,
+      "e": 31.63,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "wir",
+      "s": 31.63,
+      "e": 31.77,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "diese...",
+      "s": 31.77,
+      "e": 32.63,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "gucken",
+      "s": 32.63,
+      "e": 33.41,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "wir",
+      "s": 33.41,
+      "e": 33.55,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "uns",
+      "s": 33.55,
+      "e": 33.59,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "andere",
+      "s": 33.59,
+      "e": 33.83,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Wischen",
+      "s": 33.83,
+      "e": 34.13,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "drauf.",
+      "s": 34.13,
+      "e": 34.43,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Ja,",
+      "s": 34.63,
+      "e": 34.63,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ne?",
+      "s": 34.87,
+      "e": 34.87,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Guck",
+      "s": 36.19,
+      "e": 36.67,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "mit.",
+      "s": 36.67,
+      "e": 36.87,
+      "spk": null,
+      "event": false
+    }
+  ]
+}

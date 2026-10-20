@@ -1,0 +1,33 @@
+{
+  "engine": "whisper",
+  "words": [
+    {
+      "w": "Danke",
+      "s": 0.43,
+      "e": 1.29,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "schön",
+      "s": 1.29,
+      "e": 1.71,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "mit",
+      "s": 1.71,
+      "e": 1.93,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Kamera!",
+      "s": 1.93,
+      "e": 2.33,
+      "spk": null,
+      "event": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Medien und Zwischenstände leben in Drive bzw. work/, nie im Repo
+work/
+*.mp4
+*.mov
+*.MOV
+*.wav
+*.mp3
+*.m4a
+__pycache__/
+*.pyc
+.env
+edits/*/reframe.json

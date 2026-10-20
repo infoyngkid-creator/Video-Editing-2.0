@@ -1,0 +1,49 @@
+SCHNITTPLAN – 2026-10-17 Samstag: Pauls Eier & Studio-Session   (v3, 2026-10-19 – 31 Reels)
+Quelle: 03_Archiv/2026-10-17_Samstag (JP-261017-01…11, 13) · Kontext: 03_Archiv/2026-10-17_Samstag/Kontext.md
+Look: Einzelpersonen per Gesichtserkennung gecroppt, Gruppen/Auto als Vollbild mit Blur-Hintergrund, Untertitel immer, -14 LUFS
+Dateien: per Claude-App geschickt (Drive-Upload von Videos braucht Schreibzugriff). Dateiname = 2026-10-17_<Fokus>_Vlog_Reel_<NN>_<Titel>.mp4
+
+01 | Wir-distanzieren-uns | Reel 9:16 | Beide | Hook: „ALLES LEGAL.“ | 09 194.3–197.6 / 09 200.4–204.9 / 09 208.9–211.4 / 09 211.4–223.4 | Caption: „Klare Distanz.“ | 22 s
+02 | Es-ist-Samstag | Reel 9:16 | Beide | Hook: „WEGEN DER NACHBARN …“ | 06 26.4–39.0 / 06 39.0–43.8 | Caption: „Nachbarn haben samstags nix zu melden.“ | 17 s
+03 | Mach-mal-Freestyle | Reel 9:16 | PSGOTRICH | Hook: „FREESTYLE?“ | 09 7.2–17.1 / 09 23.6–24.9 | Caption: „Freestyle? Morgen.“ | 11 s
+04 | Pauls-Eier | Reel 9:16 | Beide | Hook: „MISSION: 3D-SCAN“ | 13 260.4–272.9 / 13 530.9–535.7 / 13 671.7–681.3 / 10 181.0–188.0 | Caption: „Die Mission läuft.“ | 34 s
+05 | Pauls-Eier-01-Das-Problem | Reel 9:16 | Beide | Hook: „DAS PROBLEM.“ | 13 11.1–36.1 | Caption: „Teil 1: Das Problem.“ | 25 s
+06 | Pauls-Eier-02-Breitbeinig | Reel 9:16 | Beide | Hook: „DER PLAN.“ | 13 51.2–57.6 / 13 63.5–84.8 | Caption: „Teil 2: Der Plan.“ | 28 s
+07 | Pauls-Eier-03-Niemand-hat-mich-oefter | Reel 9:16 | Beide | Hook: „WER WILL HIER WAS?“ | 13 97.0–111.3 / 13 113.3–119.0 | Caption: „Teil 3: Wer will hier was?“ | 20 s
+08 | Pauls-Eier-04-Nur-Pro-Modelle | Reel 9:16 | Beide | Hook: „TECHNIK-CHECK.“ | 13 150.6–172.6 | Caption: „Teil 4: Nur Pro-Modelle.“ | 22 s
+09 | Pauls-Eier-05-Du-willst-an-meine-Eier | Reel 9:16 | Beide | Hook: „WER WILL HIER WAS? TEIL 2“ | 13 189.8–202.9 / 13 333.6–341.6 | Caption: „Teil 5.“ | 21 s
+10 | Pauls-Eier-06-Backpulver-Erfahrung | Reel 9:16 | Beide | Hook: „DER EXPERTE.“ | 13 238.2–255.3 | Caption: „Teil 6: Der Experte.“ | 17 s
+11 | Pauls-Eier-07-Insta-Story | Reel 9:16 | Beide | Hook: „ICH HAB EIN PROBLEM.“ | 13 260.4–290.4 | Caption: „Teil 7: Fremden Menschen versprochen.“ | 30 s
+12 | Pauls-Eier-08-Posten-wir-das | Reel 9:16 | Beide | Hook: „POSTEN WIR DAS?“ | 13 290.1–305.8 / 13 306.5–315.0 | Caption: „Teil 8: Posten wir das?“ | 24 s
+13 | Pauls-Eier-09-Euphorisch | Reel 9:16 | Beide | Hook: „NICHT EMPÖRT. EUPHORISCH.“ | 13 361.1–389.8 | Caption: „Teil 9: Nicht empört. Euphorisch.“ | 29 s
+14 | Pauls-Eier-10-Aufgabenaufteilung | Reel 9:16 | Beide | Hook: „AUFGABENVERTEILUNG.“ | 13 545.6–569.4 | Caption: „Teil 10: Aufgabenverteilung.“ | 24 s
+15 | Pauls-Eier-11-Ich-tue-das-fuer-dich | Reel 9:16 | Beide | Hook: „ICH TU DAS FÜR DICH.“ | 13 575.5–593.0 | Caption: „Teil 11: Ich tu das für dich.“ | 18 s
+16 | Pauls-Eier-12-Cosplay | Reel 9:16 | Beide | Hook: „LET ME COOK.“ | 13 604.8–634.2 | Caption: „Teil 12: Let me cook.“ | 29 s
+17 | Pauls-Eier-13-Grundsatzdiskussion | Reel 9:16 | Beide | Hook: „GRUNDSATZDISKUSSION.“ | 13 657.1–685.7 | Caption: „Teil 13: Grundsatzdiskussion.“ | 29 s
+18 | Pauls-Eier-14-Studio-Edition | Reel 9:16 | Beide | Hook: „NEUE LOCATION. GLEICHE MISSION.“ | 08 221.8–234.6 / 08 238.0–251.0 / 08 259.4–262.6 | Caption: „Teil 14: Neue Location, gleiche Mission.“ | 29 s
+19 | Pauls-Eier-15-Der-Lauf | Reel 9:16 | Beide | Hook: „DIE ERKLÄRUNG.“ | 08 277.9–298.6 | Caption: „Teil 15: Die Erklärung.“ | 21 s
+20 | Pauls-Eier-16-KI | Reel 9:16 | Beide | Hook: „KI WIRD AUF UNS GETRAINED.“ | 08 316.9–336.4 | Caption: „Teil 16: KI wird auf uns getrained.“ | 20 s
+21 | Weissburgunder | Reel 9:16 | Beide | Hook: „FÜR FEINSCHMECKER.“ | 08 162.8–190.2 | Caption: „Für Feinschmecker.“ | 27 s
+22 | Ich-verstehe-gar-nichts | Reel 9:16 | Beide | Hook: „FL SEIT 8 JAHREN.“ | 09 154.3–179.2 | Caption: „FL seit 8 Jahren.“ | 25 s
+23 | Pauls-Eier-17-Finale | Reel 9:16 | Beide | Hook: „DIE IDEE.“ | 10 169.3–188.1 | Caption: „Teil 17: Finale.“ | 19 s
+24 | Die-Muetze | Reel 9:16 | Beide | Hook: „DIESE MÜTZE, NE?“ | 06 48.2–73.0 | Caption: „Diese Mütze, ne?“ | 25 s
+25 | Meisterwerk | Reel 9:16 | Beide | Hook: „PICASSO.“ | 10 51.6–54.5 / 10 65.1–69.6 / 10 73.9–79.8 / 10 122.5–124.8 / 10 150.2–151.7 | Caption: „Picasso.“ | 17 s
+26 | Pauls-Eier-Supercut | Reel 9:16 | Beide | Hook: „PAULS EIER: DIE GANZE SAGA.“ | 13 11.1–24.0 / 13 268.4–272.8 / 13 248.9–253.1 / 13 523.6–526.7 / 13 531.8–535.6 / 13 563.8–569.3 / 13 608.4–611.1 / 13 671.5–681.1 / 08 243.3–248.1 / 10 176.4–188.1 | Caption: „Die ganze Saga in 60 Sekunden.“ | 63 s
+27 | Best-of-Samstag | Reel 9:16 | Beide | Hook: „SAMSTAG IN 30 SEKUNDEN.“ | 06 32.3–39.3 / 09 12.0–17.1 / 09 23.6–24.9 / 09 200.4–204.9 / 09 214.2–216.5 / 13 673.9–681.1 / 10 176.4–179.7 | Caption: „Samstag in 30 Sekunden.“ | 31 s
+28 | Wir-distanzieren-uns-Hook | Reel 9:16 | Beide | Hook: „WIR DISTANZIEREN UNS.“ | 09 214.2–216.5 / 09 194.3–197.6 / 09 200.4–204.9 / 09 208.9–211.4 / 09 211.4–223.4 | Caption: „Wir distanzieren uns.“ | 25 s
+29 | Pauls-Eier-Insta-Story-Hook | Reel 9:16 | Beide | Hook: „FREMDEN MENSCHEN VERSPROCHEN.“ | 13 268.4–271.5 / 13 260.4–290.4 | Caption: „Fremden Menschen versprochen.“ | 33 s
+30 | Beat-Bau | Reel 9:16 | Beide | Hook: „TRAP-BASSLINE.“ | 07 14.1–26.0 / 07 34.2–45.0 / 07 71.6–80.4 / 07 87.2–91.1 | Caption: „Trap-Bassline.“ | 35 s
+31 | Cheesies | Reel 9:16 | Beide | Hook: „WE GOT THEM CHEESIES.“ | 03 6.0–20.6 / 03 31.5–33.6 | Caption: „We got them cheesies.“ | 17 s
+
+POSTING-VORSCHLAG
+- Serie „Pauls Eier“ (05–20, 23) täglich 1–2 Teile in Reihenfolge; Kicker zeigt Teil + Uhrzeit. 04 als Trailer zuerst, 26 (Supercut) nach dem Finale.
+- Dazwischen Standalones: 01/28, 02, 03, 21, 22, 24, 25, 27, 30, 31.
+- 28 und 29 sind Hook-first-Varianten von 01 und 11 – A/B-Test, nur eine Version posten.
+
+PRÜFHINWEISE
+- Untertitel automatisch (Whisper medium), an Reel-Stellen geprüft. Gegenlesen, v. a. Namen („Simon“, „Osway“ in 24).
+- Derb: Pauls-Eier-Serie, „Glizzy“ (Waffen-Slang). Plattform-Richtlinien beachten, Captions ggf. entschärfen.
+- 01/28 thematisieren gecrackte Software. 21: Gast spricht über eigene Krankheit (nicht rülpsen können).
+- Producer und Gäste im Studio: Einverständnis klären (18–22, 24, 25, 30).
+- Lars' echter Name (JP-13 ~3:02, ~9:01) und „Philipp“ (JP-13 ~3:27, 6:42, 9:00) sind in keinem Reel.
+- JP-261017-12 (copy_A8E77…mov) war beim Archivieren nicht mehr in Drive – nicht im Archiv.

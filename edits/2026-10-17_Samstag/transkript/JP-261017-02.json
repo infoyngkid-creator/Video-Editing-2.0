@@ -1,0 +1,145 @@
+{
+  "engine": "whisper",
+  "words": [
+    {
+      "w": "Ich",
+      "s": 6.38,
+      "e": 6.76,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "hab",
+      "s": 6.76,
+      "e": 6.94,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "mir",
+      "s": 6.94,
+      "e": 7.3,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "das",
+      "s": 7.3,
+      "e": 7.42,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Gefühl,",
+      "s": 7.42,
+      "e": 7.66,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "du",
+      "s": 7.76,
+      "e": 7.82,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "bist",
+      "s": 7.82,
+      "e": 7.98,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "da.",
+      "s": 7.98,
+      "e": 8.06,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Wo",
+      "s": 13.76,
+      "e": 14.14,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "gehen",
+      "s": 14.14,
+      "e": 14.2,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "wir",
+      "s": 14.2,
+      "e": 14.3,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "jetzt",
+      "s": 14.3,
+      "e": 14.4,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "eigentlich",
+      "s": 14.4,
+      "e": 14.58,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "hin?",
+      "s": 14.58,
+      "e": 14.78,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "Ich",
+      "s": 15.66,
+      "e": 15.92,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "spau,",
+      "s": 15.92,
+      "e": 16.18,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ich",
+      "s": 16.26,
+      "e": 16.36,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "spau,",
+      "s": 16.36,
+      "e": 16.6,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "ich",
+      "s": 16.6,
+      "e": 16.6,
+      "spk": null,
+      "event": false
+    },
+    {
+      "w": "spau.",
+      "s": 16.6,
+      "e": 16.96,
+      "spk": null,
+      "event": false
+    }
+  ]
+}
