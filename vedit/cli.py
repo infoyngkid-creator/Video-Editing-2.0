@@ -6,6 +6,7 @@ Ablauf für ein neues Event:
   vorschau <event> [nr …]         schnelle 540p-Vorschau aus Proxys
   render <event> [nr …]           finale Videos aus Originalen
   hochladen <event>               Exporte + Kontext.md + Schnittplan.txt nach 02_Entwürfe
+  avatar <event> <shot> <bild>    Person durch KI-Avatar ersetzen (Nano Banana Pro + Kling, FAL_KEY)
 """
 import argparse
 import json
@@ -192,6 +193,39 @@ def cmd_archivieren(a):
         print("Kein Drive-Schreibzugriff – Archiv-Dateien liegen nur lokal in", wd / "archiv")
 
 
+def cmd_avatar(a):
+    """Person im Shot durch einen KI-Avatar ersetzen (Nano Banana Pro + Kling Motion Control)."""
+    from . import avatar
+    avatar._fal()   # Key prüfen, bevor geladen wird
+    ed, wd = _event_dirs(a.event)
+    shots = read_json(ed / "shots.json")
+    meta = shots[a.shot]
+    bis = a.bis if a.bis is not None else meta["dauer"]
+    limit = avatar.MAX_DAUER[a.ausrichtung]
+    if bis - a.von > limit:
+        raise SystemExit(f"Clip {bis - a.von:.1f} s – Kling schafft mit '{a.ausrichtung}' max. {limit:.0f} s.")
+    src = wd / "raw" / meta["datei"]
+    if not src.exists():
+        fid = meta.get("drive_id") or read_json(ed / "event.json").get("drive_ids", {}).get(meta["datei"])
+        if not fid:
+            raise SystemExit(f"Original {meta['datei']} fehlt und hat keine Drive-ID.")
+        drive.link_download(fid, src)
+    name = f"{a.shot}_{a.von:g}-{bis:g}_{Path(a.avatar).stem}"
+    od = wd / "avatar"
+    od.mkdir(parents=True, exist_ok=True)
+    clip = avatar.clip_schneiden(src, meta.get("hdr", False), a.von, bis, od / f"{name}_vorlage.mp4")
+    if a.bild:
+        bild = Path(a.bild)
+    else:
+        frame = avatar.standbild(clip, a.frame, od / f"{name}_frame.jpg")
+        bild = avatar.bild_tauschen(frame, Path(a.avatar), od / f"{name}_bild.png")
+        print(f"Avatar-Bild: {bild}")
+        if a.nur_bild:
+            return
+    out = avatar.video_bewegen(bild, clip, od / f"{name}_AVATAR.mp4", a.ausrichtung, a.prompt)
+    print(f"Avatar-Video: {out}")
+
+
 def cmd_hochladen(a):
     ed, wd = _event_dirs(a.event)
     ziel = f"{config.ENTWUERFE}/{ed.name}"
@@ -238,6 +272,19 @@ def main(argv=None):
     av.add_argument("event")
     av.add_argument("--4k", dest="vier_k", nargs="*", help="Shot-IDs, die in voller Auflösung bleiben")
     av.set_defaults(f=cmd_archivieren)
+    va = s.add_parser("avatar", help="Person im Shot durch KI-Avatar ersetzen (braucht FAL_KEY)")
+    va.add_argument("event")
+    va.add_argument("shot", help="Archiv-ID, z. B. JP-261017-05")
+    va.add_argument("avatar", help="Bild des Avatars (jpg/png)")
+    va.add_argument("--von", type=float, default=0.0)
+    va.add_argument("--bis", type=float)
+    va.add_argument("--frame", type=float, default=0.0, help="Zeitpunkt im Clip fürs Standbild")
+    va.add_argument("--ausrichtung", choices=["video", "image"], default="video",
+                    help="video: Bewegung wie Clip, max. 30 s · image: Kamerafahrt, max. 10 s")
+    va.add_argument("--nur-bild", action="store_true", help="nur Schritt 1 (Bild prüfen, spart Credits)")
+    va.add_argument("--bild", help="schon geprüftes Avatar-Bild nehmen, Schritt 1 überspringen")
+    va.add_argument("--prompt", default="", help="optionaler Prompt für Kling")
+    va.set_defaults(f=cmd_avatar)
     h = s.add_parser("hochladen")
     h.add_argument("event")
     h.add_argument("--vorschau", action="store_true", help="Vorschauen statt finaler Exporte")

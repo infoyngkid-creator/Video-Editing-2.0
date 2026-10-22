@@ -68,3 +68,15 @@ python3 -m vedit status
 - **Untertitel automatisch** aus Wort-Zeitstempeln auf die Schnitt-Timeline gemappt.
 - **Deklarative Specs** (`schnitt.json`) statt `specs.py`/`build.py` pro Event – am Handy lesbar und von Claude leicht änderbar.
 - **Projektstand in Git** statt nur auf dem Mac.
+
+## KI-Avatar-Swap (`vedit avatar`)
+Ersetzt die Person in einem Shot durch einen KI-Avatar: Standbild + Avatar-Foto → **Nano Banana Pro**
+(gleiche Pose/Hintergrund), dann Bild + Clip → **Kling Motion Control** (Avatar bewegt sich wie im Clip, Originalton bleibt).
+Läuft über fal.ai – einmalig `FAL_KEY=<Key>` (fal.ai → Keys) im Environment eintragen. Kostet Credits pro Lauf.
+```bash
+python3 -m vedit avatar Samstag JP-261017-05 avatar.png --von 2 --bis 14 --nur-bild   # 1. Bild prüfen
+python3 -m vedit avatar Samstag JP-261017-05 avatar.png --von 2 --bis 14 \
+  --bild work/2026-10-17_Samstag/avatar/JP-261017-05_2-14_avatar_bild.png             # 2. Video
+```
+Clip max. 30 s (`--ausrichtung image`: 10 s, für Kamerafahrten). Ergebnis: `work/<event>/avatar/…_AVATAR.mp4`.
+Stimme bleibt die Originalstimme. Nur mit Einverständnis der gefilmten Person, KI-Inhalt beim Posten kennzeichnen.

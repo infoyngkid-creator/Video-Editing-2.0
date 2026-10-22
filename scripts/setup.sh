@@ -12,6 +12,7 @@ fi
 
 python3 -c "import faster_whisper" 2>/dev/null || pip install -q faster-whisper >/dev/null 2>&1 || true
 python3 -c "import cv2" 2>/dev/null || pip install -q opencv-python-headless >/dev/null 2>&1 || true
+python3 -c "import fal_client" 2>/dev/null || pip install -q fal-client >/dev/null 2>&1 || true
 
 # Drive-Remote "gdrive" rein über Umgebungsvariablen (Environment-Secrets der Cloud-Umgebung):
 #   GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET, GDRIVE_REFRESH_TOKEN  (eigener OAuth-Client, Handy-Setup, README)

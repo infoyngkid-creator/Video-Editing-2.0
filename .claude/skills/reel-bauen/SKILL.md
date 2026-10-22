@@ -16,3 +16,7 @@ description: Einzelnes Reel/Video eines bestehenden Events ändern oder neu baue
 
 Musik: Song muss in `05_Musik/` liegen. `musik.start` = Sekunde im Song, an der das Reel beginnt
 (Drop auf Schnitt legen: start = Drop-Zeit − Position des Schnitts im Reel).
+
+KI-Avatar ("Gesicht/Person tauschen", "AI-Avatar"): `vedit avatar <event> <shot> <avatarbild> --von --bis --nur-bild`
+→ Bild per SendUserFile zeigen → nach OK mit `--bild <pfad>` das Video (Kling, max. 30 s) erzeugen, im Hintergrund.
+Braucht `FAL_KEY`. Avatar-Bild per Upload in den Chat oder aus Drive. Nur mit Einverständnis der Person im Shot.
