@@ -48,6 +48,13 @@ auf Deutsch, und liefere Ergebnisse als Drive-Links bzw. Dateinamen statt langer
 6. `hochladen <event>` (oder `--vorschau`) → `02_Entwürfe/<event>/`.
 7. Commit + Push der `edits/<event>/`-Dateien, damit der Stand auf jedem Gerät da ist.
 
+## KI-Shots (Higgsfield „AI LARP“) → Skill `ai-larp`
+- Higgsfield läuft über den Connector `https://mcp.higgsfield.ai/mcp` (Claude-App und Claude Code). Kostet Credits →
+  **vor jeder Generierung Credits zeigen und Ja abwarten, ein Clip pro Freigabe.**
+- `ki-vorlage <event> <shot> <von> <bis>` schneidet die Vorlage, `ki-shot <event> <datei|URL> --vorlage … --prompt … --modell … --credits N`
+  übernimmt das Ergebnis als `JP-YYMMDD-KI-NN`, `ki-liste <event>` zeigt KI-Shots + Credits.
+- KI-Shots beim Posten als „KI-generiert“ labeln.
+
 ## schnitt.json
 ```json
 {"datum": "2026-10-18", "videos": [{
