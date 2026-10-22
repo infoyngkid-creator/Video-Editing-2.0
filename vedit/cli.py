@@ -5,6 +5,7 @@ Ablauf für ein neues Event:
   neu <drive-ordner> <datum> <name>   Event anlegen, Footage holen, IDs, Proxys, Transkript
   vorschau <event> [nr …]         schnelle 540p-Vorschau aus Proxys
   render <event> [nr …]           finale Videos aus Originalen
+  ki-vorlage / ki-shot / ki-liste   KI-Shots (Higgsfield, siehe Skill ai-larp)
   hochladen <event>               Exporte + Kontext.md + Schnittplan.txt nach 02_Entwürfe
 """
 import argparse
@@ -116,7 +117,15 @@ def cmd_render(a, preview=False):
             datei = shots[sid]["datei"]
             fid = shots[sid].get("drive_id") or ids.get(datei)
             if not (wd / "raw" / datei).exists():
-                if fid:
+                ki_url = (shots[sid].get("ki") or {}).get("quelle", "")
+                if not fid and ki_url.startswith("http"):
+                    from .util import run
+                    (wd / "raw").mkdir(parents=True, exist_ok=True)
+                    run(["curl", "-sSL", "--fail", "--retry", "3", "-o", wd / "raw" / datei, ki_url])
+                elif not fid and shots[sid].get("ki"):
+                    raise SystemExit(f"{sid} (KI-Shot) fehlt lokal und ist nicht in Drive – "
+                                     "Datei nach 03_Archiv/<event>/ legen und drive_id in shots.json eintragen.")
+                elif fid:
                     drive.link_download(fid, wd / "raw" / datei)
                 else:
                     drive.download_file(f"{quelle}/{datei}", wd / "raw")
@@ -204,6 +213,26 @@ def cmd_hochladen(a):
     print(f"Hochgeladen nach Drive: JOE X PSGOTRICH/{ziel}")
 
 
+def cmd_ki_vorlage(a):
+    from . import ki
+    ed, wd = _event_dirs(a.event)
+    print(ki.quelle(ed, wd, a.shot, a.von, a.bis))
+
+
+def cmd_ki_shot(a):
+    from . import ki
+    ed, wd = _event_dirs(a.event)
+    sid = ki.uebernehmen(ed, wd, a.datei, a.vorlage, a.prompt, a.modell, a.credits, a.drive_id)
+    print(f"Neuer Shot: {sid} – in schnitt.json wie jeden Shot nutzen "
+          f'({{"shot": "{sid}", "von": 0, "bis": …}}).')
+
+
+def cmd_ki_liste(a):
+    from . import ki
+    ed, _ = _event_dirs(a.event)
+    ki.liste(ed)
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog="vedit")
     s = p.add_subparsers(dest="cmd", required=True)
@@ -238,6 +267,24 @@ def main(argv=None):
     av.add_argument("event")
     av.add_argument("--4k", dest="vier_k", nargs="*", help="Shot-IDs, die in voller Auflösung bleiben")
     av.set_defaults(f=cmd_archivieren)
+    kv = s.add_parser("ki-vorlage", help="Archiv-Clip als Higgsfield-Vorlage schneiden (SDR, ≤10 s)")
+    kv.add_argument("event")
+    kv.add_argument("shot", help="z. B. JP-261017-04")
+    kv.add_argument("von", type=float)
+    kv.add_argument("bis", type=float)
+    kv.set_defaults(f=cmd_ki_vorlage)
+    ks = s.add_parser("ki-shot", help="Higgsfield-Ergebnis als Shot JP-YYMMDD-KI-NN übernehmen")
+    ks.add_argument("event")
+    ks.add_argument("datei", help="lokale Datei oder Higgsfield-URL")
+    ks.add_argument("--vorlage", help="Archiv-ID des echten Clips")
+    ks.add_argument("--prompt", default="")
+    ks.add_argument("--modell", default="?")
+    ks.add_argument("--credits", type=float)
+    ks.add_argument("--drive-id", help="Drive-ID, wenn das Ergebnis schon im Archiv liegt")
+    ks.set_defaults(f=cmd_ki_shot)
+    kl = s.add_parser("ki-liste", help="KI-Shots eines Events + verbrauchte Credits")
+    kl.add_argument("event")
+    kl.set_defaults(f=cmd_ki_liste)
     h = s.add_parser("hochladen")
     h.add_argument("event")
     h.add_argument("--vorschau", action="store_true", help="Vorschauen statt finaler Exporte")
