@@ -1,5 +1,6 @@
 Gym – 2026-11-19 – Quelle: JP-260804-01, JP-261116-01, JP-261118-01 (01_EINGANG/GYM Edit)
-01 | HardEdit | 9:16 | Solo | dark/aggressiv | Hook: Silhouette im Türrahmen zieht Shirt aus → Drop (0:04.6) Shirt weg, Flash+Shake | B 1.3–5.9, B 6.0, A 8.45, C 0.6, A 7.0, A 10.0, C 2.4, A 5.1, B 9.0, B 10.3, A 8.45 (Slow-Mo Outro) | Caption: "built in silence." | 17,1 s
+01 | HardEdit | 9:16 | Solo | dark/aggressiv | Hook: Silhouette im Türrahmen zieht Shirt aus → Drop (0:04.6) Shirt weg, Flash+Shake | B 1.3–5.9, B 6.0, A 8.45, A 7.0, A 10.0, A 5.1, B 9.0, B 10.3, A 8.45 (Slow-Mo Outro) | Caption: "built in silence." | 14,6 s
 Song: Don Toliver – Body, ab 0:04.5 (Drop 0:09.1 = 0:04.6 im Edit). Kommerziell → OHNE-MUSIK posten, Song in der App ab 0:04 drunter.
 Render: python3 -I gym_edit.py work/2026-11-19_Gym <out>   (braucht work/musik/Body.mp3)
 Prüfhinweise: JP-261116-01 hat kein Audio; JP-260804-01 ist schon gegradet (Cinema-Bars bei 5.1). Noch nicht ins 03_Archiv verschoben.
+JP-261118-01 (Spiegel-Selfie) auf Wunsch raus – nicht verwenden.

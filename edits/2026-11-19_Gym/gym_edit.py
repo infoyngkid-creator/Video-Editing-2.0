@@ -22,10 +22,8 @@ segs = [
     ("B", 1.30, INTRO, 2.0, 0.55, 0.50, 0.0, 0, "dark", 1.0),   # Shirt geht über den Kopf … (Push-in)
     ("B", 6.00, 6 * BEAT, 2.0, 0.55, 0.50, 0.25, 1, "dark", 1.0),  # DROP: Shirt aus
     ("A", 8.45, 4 * BEAT, 1.0, 0.5, 0.5, 0.12, 1, "cine", 1.0),   # Blick nach oben, Brust
-    ("C", 0.60, 4 * BEAT, 1.0, 0.5, 0.0, 0.12, 1, "mirror", 1.0),  # Spiegel-Selfie
-    ("A", 7.00, 2 * BEAT, 1.0, 0.5, 0.5, 0.12, 0, "cine", 1.0),   # Rücken / Flex
+    ("A", 7.00, 2 * BEAT, 1.0, 0.5, 0.5, 0.12, 1, "cine", 1.0),   # Rücken / Flex
     ("A", 10.00, 2 * BEAT, 1.1, 0.5, 0.5, 0.12, 1, "cine", 1.0),  # Handschuhe richten
-    ("C", 2.40, 2 * BEAT, 1.2, 0.5, 0.0, 0.12, 0, "mirror", 1.0),
     ("A", 5.10, 2 * BEAT, 1.0, 0.5, 0.5, 0.12, 1, "cine", 1.0),   # Cinema-Bars Pose
     ("B", 9.00, 2 * BEAT, 2.0, 0.55, 0.50, 0.12, 0, "dark", 1.0), # Flex im Türrahmen
     ("B", 10.30, 2 * BEAT, 1.6, 0.55, 0.50, 0.12, 1, "dark", 1.0),
