@@ -1,0 +1,32 @@
+{
+  "JP-260804-01": {
+    "datei": "31b69a6ddb394b9ea23c0611a2d467da.mov",
+    "dauer": 12.36,
+    "breite": 1080,
+    "hoehe": 1920,
+    "fps": 24.04,
+    "hdr": false,
+    "aufgenommen": "2026-08-04T21:25:20.000000Z",
+    "audio": true
+  },
+  "JP-261116-01": {
+    "datei": "F4239487-7F22-4B68-9FF7-B435464DC241.mp4",
+    "dauer": 11.83,
+    "breite": 1440,
+    "hoehe": 2560,
+    "fps": 24.0,
+    "hdr": false,
+    "aufgenommen": "2026-11-16T21:23:23.000000Z",
+    "audio": false
+  },
+  "JP-261118-01": {
+    "datei": "CD8CE606-95AC-466F-BA4D-062C4D7B88FC.mp4",
+    "dauer": 4.44,
+    "breite": 720,
+    "hoehe": 1280,
+    "fps": 30.0,
+    "hdr": false,
+    "aufgenommen": "2026-11-18T08:14:17.000000Z",
+    "audio": true
+  }
+}
